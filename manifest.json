@@ -1,0 +1,23 @@
+{
+  "name": "TWCreatorCalc — The World's #1 Creator Financial Operating System",
+  "short_name": "TWCreatorCalc",
+  "description": "Institutional-grade creator financial operating system. Calculate true net income, S-Corp tax savings, sponsorship rate cards, and legal agreements.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090D16",
+  "theme_color": "#090D16",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%23090D16'/%3E%3Cpath d='M40 96h112M96 40v112' stroke='%236366F1' stroke-width='16' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%23090D16'/%3E%3Cpath d='M100 256h312M256 100v312' stroke='%2310B981' stroke-width='36' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

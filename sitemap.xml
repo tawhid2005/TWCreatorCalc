@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Core Home YouTube Money Calculator -->
+  <url>
+    <loc>https://twcreatorcalc.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Dedicated Institutional Creator Suites -->
+  <url>
+    <loc>https://twcreatorcalc.com/#home</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#sponsorship</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#tax</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#growth</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#analytics</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#academy</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/#seo-hub</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- High-Volume Programmatic Search Landing Intents (Google #1 Target Queries) -->
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=youtube-money-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=100k-views-payout</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=1-million-views-youtube</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=sponsorship-rate-card</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=scorp-tax-shield</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=shorts-vs-long-form</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=tiktok-vs-youtube</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=channel-valuation</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.com/?calc=youtube-scam-checker</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>
