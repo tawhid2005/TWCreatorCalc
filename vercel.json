@@ -1,0 +1,23 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/sponsorship", "destination": "/sponsorship.html" },
+    { "source": "/tax", "destination": "/tax.html" },
+    { "source": "/growth", "destination": "/growth.html" },
+    { "source": "/analytics", "destination": "/analytics.html" },
+    { "source": "/academy", "destination": "/academy.html" },
+    { "source": "/benchmarks", "destination": "/benchmarks.html" },
+    { "source": "/seo-hub", "destination": "/benchmarks.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

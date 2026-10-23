@@ -4,59 +4,52 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Core Home YouTube Money Calculator -->
+  <!-- Core YouTube Money Calculator (World #1 Terminal) -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <priority>1.00</priority>
   </url>
 
-  <!-- Dedicated Institutional Creator Suites -->
+  <!-- Dedicated Institutional Creator Suites (Zero-Hash Clean URLs for Rank #1) -->
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#home</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/#sponsorship</loc>
+    <loc>https://twcreatorcalc.vercel.app/sponsorship</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#tax</loc>
+    <loc>https://twcreatorcalc.vercel.app/tax</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#growth</loc>
+    <loc>https://twcreatorcalc.vercel.app/growth</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#analytics</loc>
+    <loc>https://twcreatorcalc.vercel.app/analytics</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#academy</loc>
+    <loc>https://twcreatorcalc.vercel.app/academy</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://twcreatorcalc.vercel.app/#seo-hub</loc>
+    <loc>https://twcreatorcalc.vercel.app/benchmarks</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -67,63 +60,106 @@
     <loc>https://twcreatorcalc.vercel.app/?calc=youtube-money-calculator</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://twcreatorcalc.vercel.app/?calc=100k-views-payout</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://twcreatorcalc.vercel.app/?calc=1-million-views-youtube</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://twcreatorcalc.vercel.app/?calc=sponsorship-rate-card</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://twcreatorcalc.vercel.app/?calc=scorp-tax-shield</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=shorts-vs-long-form</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=tiktok-vs-youtube</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=channel-valuation</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=youtube-scam-checker</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?calc=gaming-cpm-breakdown</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?calc=finance-cpm-goldmine</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?calc=shorts-vs-longform</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?calc=channel-valuation-multiple</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- View Milestone Quick Landing Query URLs -->
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=1000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=10000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=50000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=100000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=500000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://twcreatorcalc.vercel.app/?views=1000000</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
 </urlset>
