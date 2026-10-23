@@ -36,4 +36,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://twcreatorcalc.com/sitemap.xml
+Sitemap: https://twcreatorcalc.vercel.app/sitemap.xml
