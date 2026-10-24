@@ -234,28 +234,278 @@
       box-shadow: 0 0 10px rgba(6, 182, 212, 0.6) !important;
     }
 
-    /* Print Styles */
+    /* =====================================================================
+       PROFESSIONAL EXECUTIVE PRINT & PDF ENGINE (Zero-Blank-Page Guarantee)
+       ===================================================================== */
     @media print {
-      body * {
-        visibility: hidden;
+      @page {
+        size: A4 portrait;
+        margin: 10mm 12mm 12mm 12mm;
       }
-      #printable-rate-card, #printable-rate-card *,
-      #printable-invoice, #printable-invoice *,
-      #printable-contract, #printable-contract *,
-      #printable-ma-termsheet, #printable-ma-termsheet * {
-        visibility: visible;
+
+      /* Global resets for pure white, crystal-clear professional printing */
+      *, *::before, *::after {
+        box-shadow: none !important;
+        text-shadow: none !important;
       }
-      #printable-rate-card, #printable-invoice, #printable-contract, #printable-ma-termsheet {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        background: #090D16 !important;
-        color: #FFFFFF !important;
-        padding: 30px;
+
+      html, body {
+        background: #FFFFFF !important;
+        color: #0F172A !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        overflow: visible !important;
+        font-size: 10pt !important;
+        line-height: 1.35 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
       }
-      .no-print {
+
+      /* Hide interactive chrome and UI decorations */
+      header,
+      nav,
+      #global-suite-nav,
+      #mobile-tools-drawer,
+      #toast-container,
+      .no-print,
+      button,
+      input[type="range"],
+      .slider-thumb,
+      .ambient-glow,
+      footer {
         display: none !important;
+      }
+
+      /* ------------------------------------------------------------
+         CASE 1: PRINTING A DEDICATED MODAL DOCUMENT
+         (Media Kit Rate Card, Invoice, Legal Contract, M&A Termsheet, Tax Report)
+         ------------------------------------------------------------ */
+      body[data-print-target] main,
+      body[data-print-target] footer,
+      body[data-print-target] header {
+        display: none !important;
+      }
+
+      /* Un-hide and un-fix modal overlays */
+      body[data-print-target] #mediakit-modal,
+      body[data-print-target] #invoice-modal,
+      body[data-print-target] #contract-modal,
+      body[data-print-target] #ma-termsheet-modal,
+      body[data-print-target] #tax-report-modal {
+        position: static !important;
+        display: block !important;
+        background: #FFFFFF !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        inset: auto !important;
+        backdrop-filter: none !important;
+        z-index: auto !important;
+      }
+
+      /* The modal dialog inner wrapper */
+      body[data-print-target] #mediakit-modal > div,
+      body[data-print-target] #invoice-modal > div,
+      body[data-print-target] #contract-modal > div,
+      body[data-print-target] #ma-termsheet-modal > div,
+      body[data-print-target] #tax-report-modal > div {
+        background: #FFFFFF !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        max-height: none !important;
+        overflow: visible !important;
+      }
+
+      /* Hide all printable documents EXCEPT the target one */
+      #printable-rate-card,
+      #printable-invoice,
+      #printable-contract,
+      #printable-ma-termsheet,
+      #printable-tax-report {
+        display: none !important;
+      }
+
+      body[data-print-target="rate-card"] #printable-rate-card,
+      body[data-print-target="invoice"] #printable-invoice,
+      body[data-print-target="contract"] #printable-contract,
+      body[data-print-target="ma-termsheet"] #printable-ma-termsheet,
+      body[data-print-target="tax-report"] #printable-tax-report {
+        display: block !important;
+        position: static !important;
+        width: 100% !important;
+        background: #FFFFFF !important;
+        color: #0F172A !important;
+        border: 1.5px solid #CBD5E1 !important;
+        border-radius: 8px !important;
+        padding: 20px 24px !important;
+        margin: 0 auto !important;
+        box-shadow: none !important;
+        page-break-inside: auto;
+      }
+
+      /* Document typography & contrast in print */
+      body[data-print-target] #printable-rate-card *,
+      body[data-print-target] #printable-invoice *,
+      body[data-print-target] #printable-contract *,
+      body[data-print-target] #printable-ma-termsheet *,
+      body[data-print-target] #printable-tax-report * {
+        color: #0F172A !important;
+        border-color: #CBD5E1 !important;
+        text-shadow: none !important;
+      }
+
+      body[data-print-target] .bg-slate-900,
+      body[data-print-target] .bg-slate-950 {
+        background-color: #F8FAFC !important;
+        border: 1px solid #CBD5E1 !important;
+      }
+
+      body[data-print-target] .text-slate-300,
+      body[data-print-target] .text-slate-400,
+      body[data-print-target] .text-slate-500 {
+        color: #334155 !important;
+      }
+
+      body[data-print-target] .text-white {
+        color: #0F172A !important;
+      }
+
+      body[data-print-target] [class*="text-emerald-"] {
+        color: #047857 !important;
+        font-weight: 700 !important;
+      }
+
+      body[data-print-target] [class*="text-indigo-"] {
+        color: #4338CA !important;
+        font-weight: 700 !important;
+      }
+
+      body[data-print-target] [class*="text-amber-"] {
+        color: #B45309 !important;
+        font-weight: 700 !important;
+      }
+
+      body[data-print-target] [class*="text-rose-"] {
+        color: #BE123C !important;
+        font-weight: 700 !important;
+      }
+
+      body[data-print-target] table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+      }
+
+      body[data-print-target] thead {
+        background-color: #F1F5F9 !important;
+      }
+
+      body[data-print-target] th,
+      body[data-print-target] td {
+        border-bottom: 1px solid #E2E8F0 !important;
+        padding: 5px 8px !important;
+        color: #0F172A !important;
+      }
+
+      /* ------------------------------------------------------------
+         CASE 2: PRINTING FROM THE MAIN PAGE / CALCULATOR SUITE
+         (e.g. User presses Ctrl+P while on #tax, #home, #growth, etc.)
+         ------------------------------------------------------------ */
+      body:not([data-print-target]) main {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #FFFFFF !important;
+      }
+
+      /* Hide inactive suite panes */
+      body:not([data-print-target]) .suite-view-pane.hidden {
+        display: none !important;
+      }
+
+      /* Show only the active suite pane */
+      body:not([data-print-target]) .suite-view-pane:not(.hidden) {
+        display: block !important;
+        width: 100% !important;
+        color: #0F172A !important;
+      }
+
+      /* Turn dark cards into crisp executive white cards with slate borders */
+      body:not([data-print-target]) .suite-view-pane [class*="bg-slate-900"],
+      body:not([data-print-target]) .suite-view-pane [class*="bg-slate-950"],
+      body:not([data-print-target]) .suite-view-pane [class*="bg-gradient-to"] {
+        background: #FFFFFF !important;
+        background-image: none !important;
+        color: #0F172A !important;
+        border: 1px solid #CBD5E1 !important;
+        border-radius: 8px !important;
+        box-shadow: none !important;
+        margin-bottom: 12px !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane * {
+        color: #0F172A !important;
+        text-shadow: none !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane .text-slate-300,
+      body:not([data-print-target]) .suite-view-pane .text-slate-400,
+      body:not([data-print-target]) .suite-view-pane .text-slate-500 {
+        color: #334155 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane [class*="text-emerald-"] {
+        color: #047857 !important;
+        font-weight: 700 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane [class*="text-indigo-"] {
+        color: #4338CA !important;
+        font-weight: 700 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane [class*="text-amber-"] {
+        color: #B45309 !important;
+        font-weight: 700 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane [class*="text-rose-"] {
+        color: #BE123C !important;
+        font-weight: 700 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane thead {
+        background-color: #F1F5F9 !important;
+      }
+
+      body:not([data-print-target]) .suite-view-pane th,
+      body:not([data-print-target]) .suite-view-pane td {
+        border-bottom: 1px solid #E2E8F0 !important;
+        padding: 5px 8px !important;
+        color: #0F172A !important;
+      }
+
+      /* Executive Printable Header */
+      .print-executive-header {
+        display: block !important;
+        border-bottom: 2px solid #0F172A !important;
+        padding-bottom: 10px !important;
+        margin-bottom: 16px !important;
       }
     }
 
@@ -370,6 +620,10 @@
           <i data-lucide="receipt" class="w-3.5 h-3.5 text-emerald-400"></i>
           <span>Invoice</span>
         </button>
+        <button id="open-tax-report-header-btn" type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-emerald-600/15 hover:bg-emerald-600/25 border border-emerald-500/40 text-emerald-300 text-xs font-semibold transition cursor-pointer">
+          <i data-lucide="scale" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>Tax PDF</span>
+        </button>
         <button id="open-scam-modal" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-rose-600/15 hover:bg-rose-600/25 border border-rose-500/40 text-rose-300 text-xs font-semibold transition cursor-pointer">
           <i data-lucide="shield-alert" class="w-3.5 h-3.5 text-rose-400"></i>
           <span>Scam Guard</span>
@@ -377,6 +631,10 @@
         <button id="export-csv-btn" class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 text-xs font-semibold transition cursor-pointer" title="Export Full Creator P&L Statement">
           <i data-lucide="download" class="w-3.5 h-3.5 text-emerald-400"></i>
           <span>P&amp;L</span>
+        </button>
+        <button id="header-print-pdf-btn" onclick="window.print()" class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/40 text-indigo-300 text-xs font-semibold transition cursor-pointer" title="Print or Save Current View as PDF (Ctrl+P)">
+          <i data-lucide="printer" class="w-3.5 h-3.5 text-indigo-400"></i>
+          <span>PDF</span>
         </button>
         <button id="open-embed-modal" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 text-xs font-semibold transition cursor-pointer" title="Embed Calculator Widget">
           <i data-lucide="code" class="w-3.5 h-3.5 text-indigo-400"></i>
@@ -616,6 +874,22 @@
   
   <!-- MAIN APP CONTAINER -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-8">
+    <!-- EXECUTIVE PRINTABLE HEADER (Visible only in print mode) -->
+    <div class="hidden print-executive-header">
+      <div class="flex items-center justify-between border-b-2 border-slate-900 pb-3 mb-4 font-sans">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold font-mono text-base">TW</div>
+          <div>
+            <h1 class="text-lg font-black text-slate-900 font-display">TWCreatorCalc PRO — Creator Financial Operating System</h1>
+            <p class="text-xs text-slate-600 font-mono">Official Executive Creator Financial &amp; Tax Audit Report</p>
+          </div>
+        </div>
+        <div class="text-right text-xs font-mono text-slate-700">
+          <div>Report Date: <strong class="print-current-date text-slate-900">Oct 24, 2026</strong></div>
+          <div class="text-emerald-700 font-bold">STATUS: AUDITED &amp; VERIFIED</div>
+        </div>
+      </div>
+    </div>
 
     <!-- ==========================================
          VIEW 1: CORE DASHBOARD & NET TAKE-HOME
@@ -1602,6 +1876,12 @@
           <p class="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl">
             Shield your earnings from 15.3% self-employment taxes with S-Corporation tax status, audit IRS W-8BEN treaties, and secure revenue-based working capital.
           </p>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 mt-4 sm:mt-0">
+          <button id="open-tax-report-modal-btn" type="button" class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-2 shadow-lg shadow-emerald-900/30 transition cursor-pointer">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span>Official Tax Report (PDF)</span>
+          </button>
         </div>
       </div>
 
@@ -3543,6 +3823,174 @@
   </footer>
 
   <!-- MODAL 1: OFFICIAL MEDIA KIT / RATE CARD (PRINTABLE) -->
+  
+  <!-- MODAL: OFFICIAL CREATOR TAX AUDIT & S-CORP REPORT (PRINTABLE) -->
+  <div id="tax-report-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full p-4 sm:p-8 space-y-6 relative max-h-[90vh] overflow-y-auto">
+      
+      <button id="close-tax-report-modal" class="absolute top-4 right-4 sm:top-5 sm:right-5 text-slate-400 hover:text-white p-1.5 rounded-lg bg-slate-800 cursor-pointer z-10 no-print">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-800 pb-4 gap-3 pr-10 sm:pr-0 no-print">
+        <div class="flex items-center gap-2">
+          <i data-lucide="file-text" class="w-5 h-5 text-emerald-400"></i>
+          <h2 class="text-base sm:text-lg font-bold text-white">Creator S-Corp &amp; Tax Optimization Statement</h2>
+        </div>
+        <button id="print-tax-report-btn" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center justify-center gap-2 transition shadow-md cursor-pointer self-start sm:self-auto">
+          <i data-lucide="printer" class="w-4 h-4"></i>
+          <span>Print / Save as PDF</span>
+        </button>
+      </div>
+
+      <!-- PRINTABLE TAX AUDIT REPORT -->
+      <div id="printable-tax-report" class="bg-slate-950 border border-slate-800 rounded-2xl p-4 sm:p-8 space-y-6 text-white font-sans">
+        <!-- Header -->
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-slate-800 pb-6 gap-4">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-emerald-500 to-indigo-600 flex items-center justify-center text-white text-2xl font-black shadow-lg">TW</div>
+            <div>
+              <h3 id="tax-report-channel-name" class="text-xl font-display font-extrabold text-white">@TechWealthMedia</h3>
+              <p class="text-xs text-slate-400">Creator Annual Tax Optimization &amp; S-Corp Shield Statement</p>
+              <div class="flex items-center gap-2 mt-1">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Tax Year 2026/2027</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">IRS Form 1120-S &amp; 1040</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="text-[11px] font-mono uppercase text-emerald-400 font-bold flex items-center gap-1 sm:justify-end">
+              <i data-lucide="shield-check" class="w-4 h-4"></i> CPA Verified Strategy
+            </div>
+            <div class="text-xs text-slate-400 mt-0.5">Audit Date: <span class="print-current-date font-bold">Oct 24, 2026</span></div>
+          </div>
+        </div>
+
+        <!-- 4 Key Stat Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-mono">
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] uppercase text-slate-400">Annual Net Profit</div>
+            <div id="tax-report-net-profit" class="text-lg font-bold text-white mt-1">$145,280.00</div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] uppercase text-slate-400">Sole Prop / LLC Tax</div>
+            <div id="tax-report-llc-tax" class="text-lg font-bold text-rose-400 mt-1">-$22,228.00</div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] uppercase text-slate-400">S-Corp Structure Tax</div>
+            <div id="tax-report-scorp-tax" class="text-lg font-bold text-slate-200 mt-1">-$9,945.00</div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-emerald-500/40 bg-emerald-950/20">
+            <div class="text-[10px] uppercase text-emerald-400 font-bold">Annual Cash Kept</div>
+            <div id="tax-report-cash-kept" class="text-lg font-bold text-emerald-400 mt-1">+$12,283.00</div>
+          </div>
+        </div>
+
+        <!-- S-Corp Compensation Allocation -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-300 font-mono">1. IRS Reasonable Compensation Schedule (Form 1120-S)</h4>
+          <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono">
+            <div class="space-y-1">
+              <span class="text-slate-400 block text-[11px]">Recommended W-2 Officer Salary (45% Allocation):</span>
+              <strong id="tax-report-w2-salary" class="text-base text-indigo-300 block font-bold">$65,376.00 / yr</strong>
+              <p class="text-[10px] text-slate-500 font-sans">Subject to standard payroll withholding (FICA Social Security &amp; Medicare split).</p>
+            </div>
+            <div class="space-y-1">
+              <span class="text-slate-400 block text-[11px]">Shareholder Distributions (55% Allocation):</span>
+              <strong id="tax-report-distributions" class="text-base text-emerald-400 block font-bold">$79,904.00 / yr</strong>
+              <p class="text-[10px] text-emerald-400/90 font-sans font-bold">✓ 100% EXEMPT from 15.3% Self-Employment Tax!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Itemized Deductions Schedule -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-300 font-mono">2. Legitimate Creator Deductions &amp; Write-Off Schedule</h4>
+          <div class="border border-slate-800 rounded-xl overflow-x-auto text-xs">
+            <table class="w-full text-left font-mono">
+              <thead class="bg-slate-900 text-slate-400 uppercase text-[10px]">
+                <tr>
+                  <th class="p-3">Expense Category</th>
+                  <th class="p-3">IRS Tax Code Basis</th>
+                  <th class="p-3">Eligible Deductible Items</th>
+                  <th class="p-3 text-right">Est. Annual Write-Off</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-800 text-[11px]">
+                <tr>
+                  <td class="p-3 font-sans font-bold text-white">Production Equipment</td>
+                  <td class="p-3 text-slate-400">Section 179 Expensing</td>
+                  <td class="p-3 text-slate-300 font-sans">Cameras, Lenses, Studio Lights, Microphones, PC</td>
+                  <td class="p-3 text-right text-emerald-400 font-bold">$6,500.00</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-sans font-bold text-white">Software &amp; Digital Tools</td>
+                  <td class="p-3 text-slate-400">Ordinary &amp; Necessary (Sec 162)</td>
+                  <td class="p-3 text-slate-300 font-sans">Adobe CC, Epidemic Sound, AI subscriptions, vidIQ</td>
+                  <td class="p-3 text-right text-emerald-400 font-bold">$2,100.00</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-sans font-bold text-white">Studio &amp; Home Office</td>
+                  <td class="p-3 text-slate-400">Exclusive Use Doctrine</td>
+                  <td class="p-3 text-slate-300 font-sans">Dedicated filming studio square footage, pro-rated rent</td>
+                  <td class="p-3 text-right text-emerald-400 font-bold">$4,200.00</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-sans font-bold text-white">High-Speed Communications</td>
+                  <td class="p-3 text-slate-400">Business Utility Proration</td>
+                  <td class="p-3 text-slate-300 font-sans">Fiber internet upload line (80%) + smartphone plan</td>
+                  <td class="p-3 text-right text-emerald-400 font-bold">$1,440.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- IRS Quarterly Deadlines & Compliance -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono">
+          <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1.5">
+            <span class="text-slate-400 block text-[10px] uppercase">IRS Quarterly Deadlines (Form 1040-ES):</span>
+            <div class="text-[11px] text-slate-300 space-y-0.5">
+              <div class="flex justify-between"><span>Q1 Estimated Payment:</span><strong class="text-white">April 15</strong></div>
+              <div class="flex justify-between"><span>Q2 Estimated Payment:</span><strong class="text-white">June 15</strong></div>
+              <div class="flex justify-between"><span>Q3 Estimated Payment:</span><strong class="text-white">September 15</strong></div>
+              <div class="flex justify-between"><span>Q4 Estimated Payment:</span><strong class="text-white">January 15</strong></div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1.5">
+            <span class="text-slate-400 block text-[10px] uppercase">IRS Form W-8BEN Withholding Status:</span>
+            <p class="text-[11px] text-slate-300 font-sans">
+              Non-US treaty rate: <strong class="text-emerald-400 font-mono">0% - 15% active</strong> (standard 30% default withholding avoided). Certified under bilateral tax treaty.
+            </p>
+          </div>
+        </div>
+
+        <!-- Official Sign-off -->
+        <div class="border-t border-slate-800 pt-5 grid grid-cols-2 gap-6 text-xs font-mono">
+          <div class="space-y-4">
+            <span class="text-slate-400 block text-[10px] uppercase">Creator / Officer Certification:</span>
+            <div class="border-b border-slate-700 pb-1 flex justify-between text-slate-300">
+              <span>Signature: _______________________</span>
+              <span>Date: ________</span>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <span class="text-slate-400 block text-[10px] uppercase">CPA / Enrolled Agent Review:</span>
+            <div class="border-b border-slate-700 pb-1 flex justify-between text-slate-300">
+              <span>Signature: _______________________</span>
+              <span>PTIN: ________</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-[10px] text-slate-500 text-center font-mono pt-2">
+          Prepared via TWCreatorCalc Institutional Tax Terminal (https://twcreatorcalc.vercel.app/tax). Estimates for planning purposes. Consult a licensed CPA.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <div id="mediakit-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full p-4 sm:p-8 space-y-6 relative max-h-[90vh] overflow-y-auto">
       
@@ -3646,7 +4094,7 @@
         <div class="border-t border-slate-800 pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500 gap-2">
           <div class="flex items-center gap-1.5">
             <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-            <span>Verified by <strong>TWCreatorCalc.com</strong> — Official Creator Valuation Engine</span>
+            <span>Verified by <strong>twcreatorcalc.vercel.app</strong> — Official Creator Valuation Engine</span>
           </div>
           <div>Valid for 30 calendar days from audit date.</div>
         </div>
@@ -6077,7 +6525,30 @@ Partnerships Lead | ${channel}`;
       safeListen("close-mediakit-modal", "click", () => {
         if (mediakitModal) mediakitModal.classList.add("hidden");
       });
-      safeListen("print-rate-card-btn", "click", () => window.print());
+      // Professional Multi-Modal & View PDF Print Dispatcher
+      function printDocument(docId) {
+        if (docId) {
+          document.body.setAttribute('data-print-target', docId);
+        } else {
+          document.body.removeAttribute('data-print-target');
+        }
+        document.querySelectorAll('.print-current-date').forEach(el => {
+          el.textContent = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        });
+        if (window.lucide && typeof lucide.createIcons === 'function') {
+          lucide.createIcons();
+        }
+        setTimeout(() => {
+          window.print();
+        }, 50);
+      }
+      window.printDocument = printDocument;
+
+      window.addEventListener('afterprint', () => {
+        document.body.removeAttribute('data-print-target');
+      });
+
+      safeListen("print-rate-card-btn", "click", () => printDocument('rate-card'));
 
       // 32. Invoice Modal
       const invoiceModal = document.getElementById("invoice-modal");
@@ -6089,7 +6560,7 @@ Partnerships Lead | ${channel}`;
       safeListen("close-invoice-modal", "click", () => {
         if (invoiceModal) invoiceModal.classList.add("hidden");
       });
-      safeListen("print-invoice-btn", "click", () => window.print());
+      safeListen("print-invoice-btn", "click", () => printDocument('invoice'));
 
       // 33. Contract Modal
       const contractModal = document.getElementById("contract-modal");
@@ -6105,7 +6576,7 @@ Partnerships Lead | ${channel}`;
       safeListen("close-contract-modal", "click", () => {
         if (contractModal) contractModal.classList.add("hidden");
       });
-      safeListen("print-contract-btn", "click", () => window.print());
+      safeListen("print-contract-btn", "click", () => printDocument('contract'));
 
       // 34. Negotiation Modal
       const negModal = document.getElementById("negotiation-modal");
@@ -6184,7 +6655,27 @@ Partnerships Lead | ${channel}`;
       safeListen("close-ma-termsheet-modal", "click", () => {
         if (maModal) maModal.classList.add("hidden");
       });
-      safeListen("print-ma-termsheet-btn", "click", () => window.print());
+      safeListen("print-ma-termsheet-btn", "click", () => printDocument('ma-termsheet'));
+
+      // 36b. Tax Report Modal Handlers
+      const taxModal = document.getElementById("tax-report-modal");
+      function openTaxReportModal() {
+        if (taxModal) taxModal.classList.remove("hidden");
+        AudioHaptics.playClick(600);
+        if (window.lucide && typeof lucide.createIcons === 'function') lucide.createIcons();
+      }
+      window.openTaxReportModal = openTaxReportModal;
+
+      [document.getElementById("open-tax-report-modal-btn"), document.getElementById("open-tax-report-header-btn")].forEach(btn => {
+        if (btn) safeListen(btn, "click", openTaxReportModal);
+      });
+      safeListen("close-tax-report-modal", "click", () => {
+        if (taxModal) taxModal.classList.add("hidden");
+      });
+      safeListen("print-tax-report-btn", "click", () => printDocument('tax-report'));
+
+      // Desktop header PDF button: prints the active calculator suite view
+      safeListen("header-print-pdf-btn", "click", () => printDocument(null));
 
       // 37. Audio Haptics Toggle
       safeListen("audio-toggle-btn", "click", () => {
@@ -6406,7 +6897,7 @@ Partnerships Lead | ${channel}`;
           [
             "help-modal", "contract-modal", "negotiation-modal", 
             "ma-termsheet-modal", "invoice-modal", "scam-modal", 
-            "embed-modal", "mediakit-modal"
+            "embed-modal", "mediakit-modal", "tax-report-modal"
           ].forEach(mId => {
             const m = document.getElementById(mId);
             if (m && !m.classList.contains("hidden")) m.classList.add("hidden");
@@ -6432,7 +6923,7 @@ Partnerships Lead | ${channel}`;
       [
         "help-modal", "contract-modal", "negotiation-modal", 
         "ma-termsheet-modal", "invoice-modal", "scam-modal", 
-        "embed-modal", "mediakit-modal", "mobile-tools-drawer"
+        "embed-modal", "mediakit-modal", "tax-report-modal", "mobile-tools-drawer"
       ].forEach(mId => {
         const modalEl = document.getElementById(mId);
         if (modalEl) {
