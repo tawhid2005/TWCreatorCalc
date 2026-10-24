@@ -1,39 +1,55 @@
+# ==============================================================================
+# TWCreatorCalc — Institutional Creator Financial Operating System & Terminal
+# https://twcreatorcalc.vercel.app/
+# Clean Robots.txt Optimized for Googlebot, Bingbot & AI Search Generative Engines
+# ==============================================================================
+
 User-agent: *
 Allow: /
 
-# Priority Search Engine Crawlers
+# Google Search Crawlers
 User-agent: Googlebot
-Allow: /
-
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
 User-agent: Google-Extended
+User-agent: Mediapartners-Google
 Allow: /
 
+# Microsoft Bing & Yahoo Crawlers
 User-agent: Bingbot
-Allow: /
-
+User-agent: msnbot
 User-agent: Slurp
 Allow: /
 
+# Privacy & Global Search Crawlers
 User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
 User-agent: Applebot
+User-agent: Baiduspider
+User-agent: YandexBot
+User-agent: Qwantify
 Allow: /
 
-# AI Crawlers for Search Generative Experience & Algorithmic Recommendation
+# Leading AI / Search Generative Experience (SGE) & LLM Retrieval Agents
 User-agent: GPTBot
-Allow: /
-
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: Claude-Web
+User-agent: anthropic-ai
 User-agent: PerplexityBot
+User-agent: cohere-ai
+User-agent: Meta-ExternalAgent
 Allow: /
 
+# Social Media Graph Link Preview Crawlers
+User-agent: Twitterbot
+User-agent: facebookexternalhit
+User-agent: LinkedInBot
+User-agent: Slackbot
+User-agent: TelegramBot
+User-agent: WhatsApp
+Allow: /
+
+# Host & Sitemap Directives
+Host: https://twcreatorcalc.vercel.app
 Sitemap: https://twcreatorcalc.vercel.app/sitemap.xml

@@ -17,6 +17,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="canonical" href="https://twcreatorcalc.vercel.app/sponsorship">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#090D16">
 
@@ -29,6 +34,7 @@
   <meta property="og:image" content="https://twcreatorcalc.vercel.app/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:alt" content="TWCreatorCalc — YouTube Creator Financial Operating System">
   <meta property="og:locale" content="en_US">
 
@@ -39,6 +45,7 @@
   <meta name="twitter:title" content="YouTube Sponsorship Rate Card Calculator (2026) — Brand Deal Pricing & Formula | TWCreatorCalc">
   <meta name="twitter:description" content="Calculate standard sponsorship rates for YouTube videos, Shorts, and TikTok. Price 60-second integrations, dedicated videos, usage rights, and exclusivity with 2026 industry benchmarks.">
   <meta name="twitter:image" content="https://twcreatorcalc.vercel.app/og-image.png">
+  <meta name="twitter:image:alt" content="TWCreatorCalc — The World's #1 Creator Financial Operating System">
 
   <!-- Dedicated Schema.org Graph for sponsorship -->
   <script type="application/ld+json">
@@ -48,7 +55,7 @@
     {
       "@type": "WebApplication",
       "@id": "https://twcreatorcalc.vercel.app/sponsorship#webapp",
-      "name": "YouTube Sponsorship Rate Card Calculator (2026) — Brand Deal Pricing & Formula | TWCreatorCalc",
+      "name": "YouTube Sponsorship Rate Card Calculator (2026) \u2014 Brand Deal Pricing & Formula | TWCreatorCalc",
       "url": "https://twcreatorcalc.vercel.app/sponsorship",
       "description": "Calculate standard sponsorship rates for YouTube videos, Shorts, and TikTok. Price 60-second integrations, dedicated videos, usage rights, and exclusivity with 2026 industry benchmarks.",
       "applicationCategory": "FinanceApplication",
@@ -65,6 +72,9 @@
         "ratingCount": "3420",
         "bestRating": "5",
         "worstRating": "1"
+      },
+      "publisher": {
+        "@id": "https://twcreatorcalc.vercel.app/#organization"
       }
     },
     {
@@ -94,7 +104,7 @@
           "name": "How are YouTube sponsorship rates calculated in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The industry standard formula is: (Median 30-Day Video Views / 1,000) × Niche Base CPM ($25–$60) × Deliverable Multiplier (1.0x for integrations, 2.5x for dedicated) × Usage Rights Multiplier (1.35x for digital ad whitelisting)."
+            "text": "The industry standard formula is: (Median 30-Day Video Views / 1,000) \u00d7 Niche Base CPM ($25\u2013$60) \u00d7 Deliverable Multiplier (1.0x for integrations, 2.5x for dedicated) \u00d7 Usage Rights Multiplier (1.35x for digital ad whitelisting)."
           }
         },
         {
@@ -122,6 +132,20 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://twcreatorcalc.vercel.app/#organization",
+      "name": "TWCreatorCalc",
+      "url": "https://twcreatorcalc.vercel.app/",
+      "logo": "https://twcreatorcalc.vercel.app/logo.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Tawhid"
+      },
+      "sameAs": [
+        "https://github.com/tawhid2005/TWCreatorCalc"
+      ]
     }
   ]
 }
@@ -130,6 +154,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+  <link rel="dns-prefetch" href="https://unpkg.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
@@ -652,9 +678,9 @@
       
       <!-- Brand Logo & Credit Rating Badge -->
       <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
-        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-emerald-500 via-indigo-600 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-500/25 ring-1 ring-white/20 shrink-0">
-          <span class="font-display font-black text-white text-sm sm:text-base tracking-tighter">TW</span>
-        </div>
+        <a href="/" class="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl p-[1.5px] bg-gradient-to-tr from-emerald-500 via-indigo-600 to-purple-600 shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-105 transition duration-300 ring-1 ring-white/20 shrink-0 overflow-hidden flex items-center justify-center cursor-pointer group" title="TWCreatorCalc Home">
+          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-full h-full object-cover rounded-[10px]" onerror="this.onerror=null; this.src='logo.svg';">
+        </a>
         <div>
           <div class="flex items-center gap-1.5 sm:gap-2">
             <span class="font-display font-extrabold text-lg sm:text-xl tracking-tight text-white">Creator<span class="text-indigo-400">Calc</span></span>
@@ -976,9 +1002,9 @@
     <div class="hidden print-executive-header">
       <div class="flex items-center justify-between border-b-2 border-slate-900 pb-3 mb-4 font-sans">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold font-mono text-base">TW</div>
+          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-10 h-10 rounded-xl object-cover ring-1 ring-slate-800" onerror="this.onerror=null; this.src='logo.svg';">
           <div>
-            <h1 class="text-lg font-black text-slate-900 font-display">TWCreatorCalc PRO — Creator Financial Operating System</h1>
+            <div class="text-lg font-black text-slate-900 font-display">TWCreatorCalc PRO — Creator Financial Operating System</div>
             <p class="text-xs text-slate-600 font-mono">Official Executive Creator Financial &amp; Tax Audit Report</p>
           </div>
         </div>
@@ -1000,9 +1026,9 @@
       <span id="hero-badge-text">2026/2027 Creator Financial Operating System • 36 Active Engines • Live</span>
     </div>
     
-    <h1 id="page-h1-title" class="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white max-w-4xl mx-auto leading-tight">
+    <h2 id="page-h1-title" class="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight text-white max-w-4xl mx-auto leading-tight">
       YouTube &amp; Creator <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">True Net Income</span>, Retention &amp; Wealth Command Center
-    </h1>
+    </h2>
     
     <p id="page-subtitle" class="mt-3 text-slate-400 text-sm sm:text-base max-w-3xl mx-auto">
       Calculate take-home pay after <span class="text-amber-400 font-medium">45% platform cuts</span>, <span class="text-amber-400 font-medium">ad-blockers</span>, <span class="text-rose-400 font-medium">US withholding tax</span>, and gateway fees — plus YPP 2027 eligibility, S-Corp tax savings, legal sponsorship contracts, brand negotiation scripts &amp; working capital funding.
@@ -1763,7 +1789,7 @@
               <i data-lucide="badge-dollar-sign" class="w-3.5 h-3.5"></i>
               <span>INSTITUTIONAL SPONSORSHIP COMMAND CENTER</span>
             </div>
-            <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white">Sponsorship Pricing, Rights Management &amp; Legal Shield</h2>
+            <h1 class="text-2xl sm:text-3xl font-display font-extrabold text-white">YouTube Sponsorship Rate Card Calculator <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">(2026 Brand Deal Pricing &amp; Formula)</span></h1>
             <p class="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl">
               Price your channel based on audience demographics, protect against malicious brand phishing, negotiate higher fees with low-ball counter scripts, and execute enforceable legal contracts.
             </p>
@@ -4118,7 +4144,7 @@
       <!-- Bottom Bar -->
       <div class="border-t border-slate-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-2">
-          <div class="w-6 h-6 rounded bg-gradient-to-tr from-emerald-500 to-indigo-600 flex items-center justify-center text-white font-black text-xs shadow-md">TW</div>
+          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-6 h-6 rounded-md ring-1 ring-white/10 shadow-md object-cover" onerror="this.onerror=null; this.src='logo.svg';">
           <span class="font-bold text-slate-200">TWCreatorCalc</span>
           <span>• The World's #1 Creator Financial Operating System &amp; Terminal</span>
         </div>
@@ -4155,7 +4181,9 @@
         <!-- Header -->
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-slate-800 pb-6 gap-4">
           <div class="flex items-center gap-4">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-emerald-500 to-indigo-600 flex items-center justify-center text-white text-2xl font-black shadow-lg">TW</div>
+            <div class="relative w-14 h-14 rounded-2xl p-[2px] bg-gradient-to-tr from-emerald-500 via-indigo-600 to-purple-600 shadow-xl shadow-indigo-500/25 ring-1 ring-white/20 shrink-0 overflow-hidden">
+              <img src="logo.png" alt="TWCreatorCalc Verified Logo" class="w-full h-full object-cover rounded-[14px]" onerror="this.onerror=null; this.src='logo.svg';">
+            </div>
             <div>
               <h3 id="tax-report-channel-name" class="text-xl font-display font-extrabold text-white">@TechWealthMedia</h3>
               <p class="text-xs text-slate-400">Creator Annual Tax Optimization &amp; S-Corp Shield Statement</p>
@@ -4319,7 +4347,9 @@
       <div id="printable-rate-card" class="bg-slate-950 border border-slate-800 rounded-2xl p-4 sm:p-8 space-y-6 text-white">
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-slate-800 pb-6 gap-4">
           <div class="flex items-center gap-4">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-emerald-500 to-indigo-600 flex items-center justify-center text-white text-2xl font-black shadow-lg">TW</div>
+            <div class="relative w-14 h-14 rounded-2xl p-[2px] bg-gradient-to-tr from-emerald-500 via-indigo-600 to-purple-600 shadow-xl shadow-indigo-500/25 ring-1 ring-white/20 shrink-0 overflow-hidden">
+              <img src="logo.png" alt="TWCreatorCalc Verified Logo" class="w-full h-full object-cover rounded-[14px]" onerror="this.onerror=null; this.src='logo.svg';">
+            </div>
             <div>
               <h3 id="card-channel-name" class="text-xl font-display font-extrabold text-white">@TechWealthMedia</h3>
               <p class="text-xs text-slate-400">Creator Media Kit &amp; Verified Sponsorship Rate Card</p>

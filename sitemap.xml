@@ -1,165 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
-  <!-- Core YouTube Money Calculator (World #1 Terminal) -->
+  <!-- 1. Core YouTube Money Calculator (Institutional Terminal Homepage) -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>YouTube Money Calculator 2026 — Real Net Take-Home Earnings Terminal</image:title>
+      <image:caption>Calculate real take-home creator income after YouTube 45% revenue cut, RPM by niche, and S-Corp tax write-offs.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/logo.png</image:loc>
+      <image:title>TWCreatorCalc Brand Logo &amp; Verified Institutional Seal</image:title>
+      <image:caption>Official verified emblem for TWCreatorCalc Creator Financial Operating System.</image:caption>
+    </image:image>
   </url>
 
-  <!-- Dedicated Institutional Creator Suites (Zero-Hash Clean URLs for Rank #1) -->
+  <!-- 2. YouTube Sponsorship Rate Card & Brand Deal Calculator -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/sponsorship</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>YouTube Sponsorship Rate Card Calculator 2026</image:title>
+      <image:caption>Price standard 60-second video integrations, dedicated videos, digital usage rights, and anti-scam legal contracts.</image:caption>
+    </image:image>
   </url>
 
+  <!-- 3. Creator S-Corp vs LLC Tax Calculator & Self-Employment Tax Shield -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/tax</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>Creator S-Corp vs LLC Tax Savings Calculator 2026</image:title>
+      <image:caption>Calculate 15.3% self-employment FICA tax savings with S-Corp reasonable salary and distributions.</image:caption>
+    </image:image>
   </url>
 
+  <!-- 4. YouTube Algorithm 2027 Velocity & Channel Acquisition Valuation -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/growth</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>YouTube Channel Valuation &amp; 2027 Algorithm Auditor</image:title>
+      <image:caption>Audit 8,000 watch hours, 20M Shorts requirements, and calculate 24x to 36x M&amp;A channel cash flow multiples.</image:caption>
+    </image:image>
   </url>
 
+  <!-- 5. YouTube Shorts vs Long-Form Revenue Analytics & Wealth Visualizer -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/analytics</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>YouTube Shorts vs Long-Form 15x Revenue Simulator</image:title>
+      <image:caption>Visual analytics comparing pooled Shorts RPM to 8-minute mid-roll AdSense cash flow.</image:caption>
+    </image:image>
   </url>
 
+  <!-- 6. Creator Monetization Academy, Negotiation Scripts & Tax Guides -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/academy</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>Creator Monetization Academy &amp; Negotiation Scripts</image:title>
+      <image:caption>Word-for-word brand negotiation email scripts, anti-scam security checklists, and CPA tax manuals.</image:caption>
+    </image:image>
   </url>
 
+  <!-- 7. Official 2026 YouTube CPM & RPM Benchmarks Directory -->
   <url>
     <loc>https://twcreatorcalc.vercel.app/benchmarks</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
-  </url>
-
-  <!-- High-Volume Programmatic Search Landing Intents (Google #1 Target Queries) -->
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=youtube-money-calculator</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=100k-views-payout</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=1-million-views-youtube</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=sponsorship-rate-card</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=scorp-tax-shield</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=gaming-cpm-breakdown</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=finance-cpm-goldmine</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=shorts-vs-longform</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?calc=channel-valuation-multiple</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- View Milestone Quick Landing Query URLs -->
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=1000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=10000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=50000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=100000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=500000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://twcreatorcalc.vercel.app/?views=1000000</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://twcreatorcalc.vercel.app/og-image.png</image:loc>
+      <image:title>2026 YouTube CPM &amp; RPM Benchmarks Matrix</image:title>
+      <image:caption>Compare advertiser CPM across 12 high-paying niches and global audience geographic tiers.</image:caption>
+    </image:image>
   </url>
 
 </urlset>
