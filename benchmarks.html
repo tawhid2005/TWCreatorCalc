@@ -240,7 +240,7 @@
         height: auto !important;
         min-height: auto !important;
         overflow: visible !important;
-        font-size: 10pt !important;
+        font-size: 9.5pt !important;
         line-height: 1.35 !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
@@ -251,6 +251,11 @@
       nav,
       #global-suite-nav,
       #mobile-tools-drawer,
+      #mobile-bottom-nav,
+      #sticky-financial-hud,
+      #floating-help-btn,
+      #command-palette-modal,
+      #share-card-modal,
       #toast-container,
       .no-print,
       button,
@@ -259,6 +264,29 @@
       .ambient-glow,
       footer {
         display: none !important;
+      }
+
+      /* Reset gradient text so headlines print as solid, crisp dark text with ZERO boxes */
+      [class*="bg-clip-text"],
+      .bg-clip-text {
+        -webkit-background-clip: unset !important;
+        background-clip: unset !important;
+        background-image: none !important;
+        color: #0F172A !important;
+        -webkit-text-fill-color: #0F172A !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: inline !important;
+      }
+
+      /* Executive Printable Header */
+      .print-executive-header {
+        display: block !important;
+        border-bottom: 2px solid #0F172A !important;
+        padding-bottom: 8px !important;
+        margin-bottom: 12px !important;
       }
 
       /* ------------------------------------------------------------
@@ -329,7 +357,7 @@
         color: #0F172A !important;
         border: 1.5px solid #CBD5E1 !important;
         border-radius: 8px !important;
-        padding: 20px 24px !important;
+        padding: 18px 22px !important;
         margin: 0 auto !important;
         box-shadow: none !important;
         page-break-inside: auto;
@@ -400,7 +428,7 @@
 
       /* ------------------------------------------------------------
          CASE 2: PRINTING FROM THE MAIN PAGE / CALCULATOR SUITE
-         (e.g. User presses Ctrl+P while on #tax, #home, #growth, etc.)
+         (Direct Page Print via Ctrl+P or Header PDF Button)
          ------------------------------------------------------------ */
       body:not([data-print-target]) main {
         display: block !important;
@@ -422,17 +450,37 @@
         color: #0F172A !important;
       }
 
+      /* Subtitle in print */
+      body:not([data-print-target]) #page-subtitle {
+        color: #475569 !important;
+        font-size: 9pt !important;
+        margin-bottom: 10px !important;
+      }
+
       /* Turn dark cards into crisp executive white cards with slate borders */
-      body:not([data-print-target]) .suite-view-pane [class*="bg-slate-900"],
-      body:not([data-print-target]) .suite-view-pane [class*="bg-slate-950"],
-      body:not([data-print-target]) .suite-view-pane [class*="bg-gradient-to"] {
+      body:not([data-print-target]) .suite-view-pane div[class*="bg-slate-900"],
+      body:not([data-print-target]) .suite-view-pane div[class*="bg-slate-950"],
+      body:not([data-print-target]) .suite-view-pane div[class*="bg-gradient-to-br"],
+      body:not([data-print-target]) .suite-view-pane div[class*="bg-gradient-to-r"] {
         background: #FFFFFF !important;
         background-image: none !important;
         color: #0F172A !important;
         border: 1px solid #CBD5E1 !important;
         border-radius: 8px !important;
         box-shadow: none !important;
-        margin-bottom: 12px !important;
+        margin-bottom: 10px !important;
+      }
+
+      /* Allow simple mode card and large sections to flow naturally without large page gaps */
+      body:not([data-print-target]) #simple-mode-card {
+        page-break-inside: auto !important;
+        break-inside: auto !important;
+        margin-top: 6px !important;
+        padding: 12px 16px !important;
+      }
+
+      /* Avoid breaking individual metric cards across pages */
+      body:not([data-print-target]) .grid > div {
         page-break-inside: avoid !important;
         break-inside: avoid !important;
       }
@@ -480,16 +528,8 @@
       body:not([data-print-target]) .suite-view-pane th,
       body:not([data-print-target]) .suite-view-pane td {
         border-bottom: 1px solid #E2E8F0 !important;
-        padding: 5px 8px !important;
+        padding: 4px 6px !important;
         color: #0F172A !important;
-      }
-
-      /* Executive Printable Header */
-      .print-executive-header {
-        display: block !important;
-        border-bottom: 2px solid #0F172A !important;
-        padding-bottom: 10px !important;
-        margin-bottom: 16px !important;
       }
     }
 
@@ -905,7 +945,7 @@
     </p>
 
     <!-- USER-FRIENDLY CONTROLS: MODE SWITCHER & 1-CLICK PERSONA BAR -->
-    <div class="mt-6 max-w-4xl mx-auto space-y-4">
+    <div class="mt-6 max-w-4xl mx-auto space-y-4 no-print">
       
       <!-- MODE SWITCHER (Simple vs Pro Institutional) -->
       <div class="inline-flex items-center p-1 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-xl backdrop-blur">
@@ -1034,7 +1074,7 @@
       </div>
 
       <!-- Quick Action Buttons -->
-      <div class="flex items-center justify-between border-t border-slate-800/80 pt-4 flex-wrap gap-3">
+      <div class="flex items-center justify-between border-t border-slate-800/80 pt-4 flex-wrap gap-3 no-print">
         <div class="flex items-center gap-2">
           <button id="simple-share-btn" type="button" class="px-3.5 py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/40 text-purple-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
             <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
@@ -4710,7 +4750,7 @@
   </div>
 
   <!-- FLOATING QUICK-HELP LAUNCHER PILL -->
-  <div class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex items-center gap-2 no-print">
+  <div class="fixed bottom-5 left-5 z-40 hidden sm:flex items-center gap-2 no-print">
     <button id="floating-help-btn" class="flex items-center gap-2 sm:gap-2.5 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-full bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold text-xs shadow-2xl shadow-indigo-600/40 hover:scale-105 active:scale-95 transition-all cursor-pointer ring-1 ring-white/25 group">
       <div class="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center text-white">
         <i data-lucide="help-circle" class="w-3.5 h-3.5 text-emerald-200 group-hover:rotate-12 transition-transform"></i>
@@ -4995,7 +5035,7 @@
   </div>
 
   <!-- TOAST NOTIFICATION CONTAINER -->
-  <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none"></div>
+  <div id="toast-container" class="fixed top-5 right-5 z-50 flex flex-col gap-2 pointer-events-none no-print"></div>
 
   <!-- COMPLETE MATHEMATICAL ENGINE & REACTIVE LOGIC -->
   <script>
@@ -8121,7 +8161,7 @@ Partnerships Lead | ${channel}`;
   <!-- =====================================================================
        STICKY FLOATING MINI FINANCIAL HUD (Bottom-Right Pill)
        ===================================================================== -->
-  <div id="sticky-financial-hud" class="fixed bottom-4 right-4 z-30 hidden sm:flex items-center gap-3 bg-slate-950/95 border border-slate-800/90 backdrop-blur-xl p-2 px-3.5 rounded-2xl shadow-2xl text-xs transition-all duration-200">
+  <div id="sticky-financial-hud" class="fixed bottom-5 right-5 z-40 hidden sm:flex items-center gap-3 bg-slate-950/95 border border-slate-800/90 backdrop-blur-xl p-2 px-3.5 rounded-2xl shadow-2xl text-xs transition-all duration-200 no-print">
     <div class="flex items-center gap-1.5 text-slate-400">
       <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
       <span class="text-[10px] uppercase font-mono font-bold text-slate-400">Live</span>
