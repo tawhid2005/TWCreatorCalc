@@ -557,6 +557,12 @@
             <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 rounded-full bg-gradient-to-r from-emerald-500/20 via-indigo-500/20 to-purple-500/20 text-emerald-300 border border-emerald-500/40">PRO</span>
             <span id="header-credit-rating" class="hidden md:inline text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 font-bold">AAA Prime</span>
           </div>
+          <!-- Quick Search Button (Desktop & Mobile) -->
+          <button id="open-command-palette-btn" type="button" class="ml-2 hidden sm:inline-flex items-center gap-2 px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white text-xs transition cursor-pointer" title="Search all 36 calculators and tools (Ctrl + K)">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-indigo-400"></i>
+            <span class="text-[11px] font-medium text-slate-300">Quick Search</span>
+            <kbd class="hidden md:inline-block bg-slate-800 border border-slate-700 px-1.5 py-0.2 rounded text-[9px] text-slate-400 font-mono">Ctrl+K</kbd>
+          </button>
           <p class="text-[10px] sm:text-[11px] font-medium text-slate-400 hidden lg:block">By <span class="text-slate-300 font-semibold">TW Digital Studio</span> • Creator Financial Operating System</p>
         </div>
       </div>
@@ -611,6 +617,10 @@
         <button id="open-scam-modal" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-rose-600/15 hover:bg-rose-600/25 border border-rose-500/40 text-rose-300 text-xs font-semibold transition cursor-pointer">
           <i data-lucide="shield-alert" class="w-3.5 h-3.5 text-rose-400"></i>
           <span>Scam Guard</span>
+        </button>
+        <button id="open-share-card-btn" type="button" class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-purple-600/15 hover:bg-purple-600/25 border border-purple-500/40 text-purple-300 text-xs font-semibold transition cursor-pointer" title="Generate Viral Creator Earnings & Rate Card Image (PNG)">
+          <i data-lucide="share-2" class="w-3.5 h-3.5 text-purple-400"></i>
+          <span>Share Card</span>
         </button>
         <button id="export-csv-btn" class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 text-xs font-semibold transition cursor-pointer" title="Export Full Creator P&L Statement">
           <i data-lucide="download" class="w-3.5 h-3.5 text-emerald-400"></i>
@@ -893,6 +903,208 @@
     <p id="page-subtitle" class="mt-3 text-slate-400 text-sm sm:text-base max-w-3xl mx-auto">
       Calculate take-home pay after <span class="text-amber-400 font-medium">45% platform cuts</span>, <span class="text-amber-400 font-medium">ad-blockers</span>, <span class="text-rose-400 font-medium">US withholding tax</span>, and gateway fees — plus YPP 2027 eligibility, S-Corp tax savings, legal sponsorship contracts, brand negotiation scripts &amp; working capital funding.
     </p>
+
+    <!-- USER-FRIENDLY CONTROLS: MODE SWITCHER & 1-CLICK PERSONA BAR -->
+    <div class="mt-6 max-w-4xl mx-auto space-y-4">
+      
+      <!-- MODE SWITCHER (Simple vs Pro Institutional) -->
+      <div class="inline-flex items-center p-1 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-xl backdrop-blur">
+        <button id="mode-simple-btn" type="button" class="flex items-center gap-2 px-4 sm:px-6 py-2 rounded-xl text-xs sm:text-sm font-bold transition cursor-pointer bg-indigo-600 text-white shadow-md">
+          <i data-lucide="zap" class="w-4 h-4 text-amber-300"></i>
+          <span>Simple Mode (30-Sec Quick View)</span>
+        </button>
+        <button id="mode-pro-btn" type="button" class="flex items-center gap-2 px-4 sm:px-6 py-2 rounded-xl text-xs sm:text-sm font-bold transition cursor-pointer text-slate-400 hover:text-white">
+          <i data-lucide="cpu" class="w-4 h-4 text-indigo-400"></i>
+          <span>Pro Institutional Mode (36 Engines)</span>
+        </button>
+      </div>
+
+      <!-- 1-CLICK CREATOR PERSONA PRESETS -->
+      <div class="space-y-1.5">
+        <div class="flex items-center justify-center gap-2 text-xs text-slate-400">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span class="font-semibold text-slate-300">1-Click Creator Presets:</span>
+          <span>Click any persona to auto-tune all 2026 benchmarks:</span>
+        </div>
+        <div class="flex items-center justify-center gap-2 flex-wrap text-xs">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="150000" data-niche="gaming" data-country="US" data-sponsors="1">
+            <span>🎮</span> <strong class="text-white">Gaming Streamer</strong> <span class="text-slate-500 text-[10px]">(150K Views)</span>
+          </button>
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="35000" data-niche="finance" data-country="US" data-sponsors="2">
+            <span>📈</span> <strong class="text-white">Finance &amp; SaaS</strong> <span class="text-slate-500 text-[10px]">(35K Views)</span>
+          </button>
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="80000" data-niche="tech" data-country="US" data-sponsors="2">
+            <span>💻</span> <strong class="text-white">Tech Reviewer</strong> <span class="text-slate-500 text-[10px]">(80K Views)</span>
+          </button>
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-rose-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="2500000" data-niche="entertainment" data-country="US" data-sponsors="3">
+            <span>📱</span> <strong class="text-white">Shorts / Reels</strong> <span class="text-slate-500 text-[10px]">(2.5M Views)</span>
+          </button>
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-amber-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="60000" data-niche="lifestyle" data-country="GB" data-sponsors="1">
+            <span>🍳</span> <strong class="text-white">Lifestyle &amp; Vlog</strong> <span class="text-slate-500 text-[10px]">(60K Views)</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIMPLE MODE INSTANT ESTIMATOR CARD (Visible in Simple Mode) -->
+    <div id="simple-mode-card" class="mt-6 max-w-4xl mx-auto bg-gradient-to-br from-indigo-950/40 via-slate-900/90 to-emerald-950/30 border border-indigo-500/30 rounded-3xl p-5 sm:p-8 text-left shadow-2xl backdrop-blur space-y-6">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-4 flex-wrap gap-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400">
+            <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-white font-display">Instant Creator Earnings &amp; Rate Estimator</h3>
+            <p class="text-xs text-slate-400">Just 3 inputs to calculate your entire 2026 earnings baseline in 30 seconds</p>
+          </div>
+        </div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono font-semibold">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span>Verified 2026 Multipliers</span>
+        </div>
+      </div>
+
+      <!-- 3 Simple Inputs Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <!-- Input 1: Monthly Views -->
+        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 space-y-3">
+          <div class="flex items-center justify-between">
+            <label class="text-xs font-semibold text-slate-300">1. Monthly Video Views</label>
+            <span id="simple-views-val" class="text-sm font-bold font-mono text-indigo-400">100,000</span>
+          </div>
+          <input type="range" id="simple-views-slider" min="1000" max="5000000" step="5000" value="100000" class="w-full accent-indigo-500 cursor-pointer">
+          <div class="flex justify-between text-[10px] text-slate-500 font-mono">
+            <span>10K</span>
+            <span>100K</span>
+            <span>1M</span>
+            <span>5M</span>
+          </div>
+        </div>
+
+        <!-- Input 2: Channel Niche -->
+        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 space-y-3">
+          <label class="text-xs font-semibold text-slate-300 block">2. Channel Content Niche</label>
+          <select id="simple-niche-select" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs font-medium text-white focus:outline-none focus:border-indigo-500 cursor-pointer">
+            <option value="finance">💰 Personal Finance &amp; Crypto ($18.50 RPM)</option>
+            <option value="tech" selected>💻 Tech, Software &amp; AI ($9.20 RPM)</option>
+            <option value="education">🎓 Business &amp; Education ($6.40 RPM)</option>
+            <option value="lifestyle">🍳 Lifestyle, Food &amp; Fitness ($5.10 RPM)</option>
+            <option value="gaming">🎮 Gaming &amp; Live Streaming ($2.40 RPM)</option>
+            <option value="entertainment">🍿 Comedy &amp; Entertainment ($2.80 RPM)</option>
+            <option value="shorts">📱 YouTube Shorts Focus ($0.04 RPM)</option>
+          </select>
+          <p class="text-[10px] text-slate-400">Selects verified 2026 advertiser ad-rate index</p>
+        </div>
+
+        <!-- Input 3: Primary Audience Country -->
+        <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 space-y-3">
+          <label class="text-xs font-semibold text-slate-300 block">3. Primary Audience Geo</label>
+          <select id="simple-country-select" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs font-medium text-white focus:outline-none focus:border-indigo-500 cursor-pointer">
+            <option value="US" selected>🇺🇸 United States (Tier 1 • 1.00x Base)</option>
+            <option value="GB">🇬🇧 United Kingdom (Tier 1 • 0.92x Base)</option>
+            <option value="CA">🇨🇦 Canada (Tier 1 • 0.90x Base)</option>
+            <option value="DE">🇩🇪 Germany &amp; Europe (Tier 1 • 0.88x Base)</option>
+            <option value="BD">🇧🇩 Bangladesh / Global Tier 3 (0.28x Base)</option>
+            <option value="IN">🇮🇳 India (Tier 3 • 0.32x Base)</option>
+            <option value="AE">🇦🇪 UAE &amp; Gulf (Tier 2 • 0.75x Base)</option>
+          </select>
+          <p class="text-[10px] text-slate-400">Adjusts for viewer purchasing power &amp; tax treaty</p>
+        </div>
+      </div>
+
+      <!-- 3 Big Metric Results Badges -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-2xl p-4 text-center">
+          <div class="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider mb-1">Estimated Net Take-Home</div>
+          <div id="simple-net-income" class="text-2xl sm:text-3xl font-black font-mono text-white">$4,850 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
+          <p class="text-[10px] text-slate-400 mt-1">After 45% YouTube cut, adblock &amp; taxes</p>
+        </div>
+
+        <div class="bg-indigo-950/30 border border-indigo-500/30 rounded-2xl p-4 text-center">
+          <div class="text-[11px] font-semibold text-indigo-400 uppercase tracking-wider mb-1">Standard 60s Sponsorship Fee</div>
+          <div id="simple-sponsor-rate" class="text-2xl sm:text-3xl font-black font-mono text-white">$1,200 <span class="text-xs font-normal text-slate-400">/ video</span></div>
+          <p class="text-[10px] text-slate-400 mt-1">Based on niche CPM &amp; median views</p>
+        </div>
+
+        <div class="bg-amber-950/30 border border-amber-500/30 rounded-2xl p-4 text-center">
+          <div class="text-[11px] font-semibold text-amber-400 uppercase tracking-wider mb-1">S-Corp Tax Shield Savings</div>
+          <div id="simple-tax-saved" class="text-2xl sm:text-3xl font-black font-mono text-emerald-400">+$3,400 <span class="text-xs font-normal text-slate-400">/ yr</span></div>
+          <p class="text-[10px] text-slate-400 mt-1">Shielded from 15.3% self-employment FICA</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex items-center justify-between border-t border-slate-800/80 pt-4 flex-wrap gap-3">
+        <div class="flex items-center gap-2">
+          <button id="simple-share-btn" type="button" class="px-3.5 py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/40 text-purple-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
+            <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+            <span>Share Image Badge (PNG)</span>
+          </button>
+          <button id="simple-pdf-btn" type="button" class="px-3.5 py-2 rounded-xl bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/40 text-indigo-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
+            <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+            <span>Print Executive PDF</span>
+          </button>
+        </div>
+        <button id="simple-explore-pro-btn" type="button" class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center gap-2 transition shadow-lg shadow-indigo-900/30 cursor-pointer">
+          <span>Explore All 36 Pro Engines</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- REVERSE GOAL CALCULATOR ("I Want to Make $X / Month") -->
+    <div class="mt-6 max-w-5xl mx-auto bg-slate-900/80 border border-indigo-500/30 rounded-2xl p-5 sm:p-6 backdrop-blur shadow-xl space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3 flex-wrap gap-2">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+            <i data-lucide="target" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-white">Reverse Creator Income Goal Engine</h4>
+            <p class="text-[11px] text-slate-400">Set your dream monthly income and see the exact views and brand deals required</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-slate-400">Target Monthly Income:</span>
+          <div class="flex items-center bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-1">
+            <span class="text-xs text-emerald-400 font-bold mr-1">$</span>
+            <input type="number" id="goal-target-input" value="5000" min="500" max="100000" step="500" class="w-20 bg-transparent text-white font-mono text-xs font-bold focus:outline-none text-right">
+            <span class="text-[10px] text-slate-500 ml-1">/mo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Goal Milestones Breakdown Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-3 text-xs">
+        <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
+          <div class="text-[10px] text-slate-400 uppercase font-semibold">Monthly Views Required</div>
+          <div id="goal-req-views" class="text-base font-bold font-mono text-white mt-1">125,000</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">At your current net RPM</div>
+        </div>
+
+        <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
+          <div class="text-[10px] text-slate-400 uppercase font-semibold">Videos / Month Needed</div>
+          <div id="goal-req-videos" class="text-base font-bold font-mono text-indigo-400 mt-1">6 Videos</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">~20,000 views per video</div>
+        </div>
+
+        <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
+          <div class="text-[10px] text-slate-400 uppercase font-semibold">Or 1 Sponsor Deal + Views</div>
+          <div id="goal-req-hybrid" class="text-base font-bold font-mono text-purple-400 mt-1">$1,200 + 75K Views</div>
+          <div class="text-[10px] text-slate-500 mt-0.5">Faster route with brand deals</div>
+        </div>
+
+        <div class="bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
+          <div class="text-[10px] text-slate-400 uppercase font-semibold">Current Goal Progress</div>
+          <div id="goal-progress-pct" class="text-base font-bold font-mono text-emerald-400 mt-1">97.0%</div>
+          <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+            <div id="goal-progress-bar" class="bg-emerald-500 h-full rounded-full transition-all" style="width: 97%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Mini Creator Utility Bar & Status Meters (Module 19, 26 + Wall St Credit Rating) -->
     <div class="mt-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 text-left">
@@ -6661,6 +6873,457 @@ Partnerships Lead | ${channel}`;
       // Desktop header PDF button: prints the active calculator suite view
       safeListen("header-print-pdf-btn", "click", () => printDocument(null));
 
+      // ======================================================================
+      // 37. SIMPLE MODE VS PRO MODE CONTROLLER
+      // ======================================================================
+      let currentAppMode = localStorage.getItem("tw_calc_mode") || "simple";
+      const modeSimpleBtn = document.getElementById("mode-simple-btn");
+      const modeProBtn = document.getElementById("mode-pro-btn");
+      const simpleModeCard = document.getElementById("simple-mode-card");
+      const proSections = document.querySelectorAll(".pro-engine-section");
+
+      function setAppMode(mode) {
+        currentAppMode = mode;
+        localStorage.setItem("tw_calc_mode", mode);
+        AudioHaptics.playClick(620);
+
+        if (mode === "simple") {
+          if (modeSimpleBtn) {
+            modeSimpleBtn.classList.add("bg-indigo-600", "text-white", "shadow-md");
+            modeSimpleBtn.classList.remove("text-slate-400");
+          }
+          if (modeProBtn) {
+            modeProBtn.classList.remove("bg-indigo-600", "text-white", "shadow-md");
+            modeProBtn.classList.add("text-slate-400");
+          }
+          if (simpleModeCard) simpleModeCard.classList.remove("hidden");
+          showToast("Simple Quick View Enabled");
+        } else {
+          if (modeProBtn) {
+            modeProBtn.classList.add("bg-indigo-600", "text-white", "shadow-md");
+            modeProBtn.classList.remove("text-slate-400");
+          }
+          if (modeSimpleBtn) {
+            modeSimpleBtn.classList.remove("bg-indigo-600", "text-white", "shadow-md");
+            modeSimpleBtn.classList.add("text-slate-400");
+          }
+          if (simpleModeCard) simpleModeCard.classList.add("hidden");
+          showToast("Pro Institutional Mode Enabled (36 Engines)");
+        }
+      }
+      window.setAppMode = setAppMode;
+
+      if (modeSimpleBtn) safeListen(modeSimpleBtn, "click", () => setAppMode("simple"));
+      if (modeProBtn) safeListen(modeProBtn, "click", () => setAppMode("pro"));
+      safeListen("simple-explore-pro-btn", "click", () => setAppMode("pro"));
+
+      // Simple Mode Inputs Synchronization
+      safeListen("simple-views-slider", "input", (e) => {
+        const val = parseFloat(e.target.value) || 0;
+        const valLabel = document.getElementById("simple-views-val");
+        if (valLabel) valLabel.textContent = formatNumber(val);
+        state.monthlyViews = val;
+        // Sync to pro view slider
+        const proSlider = document.getElementById("views-slider");
+        if (proSlider) proSlider.value = val;
+        const proInput = document.getElementById("views-input");
+        if (proInput) proInput.value = val;
+        calculateAll();
+      });
+
+      safeListen("simple-niche-select", "change", (e) => {
+        state.channelNiche = e.target.value;
+        const proSelect = document.getElementById("niche-select");
+        if (proSelect) proSelect.value = e.target.value;
+        calculateAll();
+      });
+
+      safeListen("simple-country-select", "change", (e) => {
+        state.primaryCountry = e.target.value;
+        const proCountry = document.getElementById("country-select");
+        if (proCountry) proCountry.value = e.target.value;
+        calculateAll();
+      });
+
+      safeListen("simple-pdf-btn", "click", () => printDocument(null));
+      safeListen("simple-share-btn", "click", () => openShareCardModal());
+
+      // ======================================================================
+      // 38. 1-CLICK CREATOR PERSONA PRESETS
+      // ======================================================================
+      document.querySelectorAll(".persona-chip").forEach(chip => {
+        safeListen(chip, "click", () => {
+          const views = parseFloat(chip.dataset.views) || 100000;
+          const niche = chip.dataset.niche || "tech";
+          const country = chip.dataset.country || "US";
+          const sponsors = parseFloat(chip.dataset.sponsors) || 1;
+
+          state.monthlyViews = views;
+          state.channelNiche = niche;
+          state.primaryCountry = country;
+          state.monthlySponsorships = sponsors;
+
+          // Sync inputs
+          const sViews = document.getElementById("simple-views-slider");
+          if (sViews) sViews.value = views;
+          const sViewsLbl = document.getElementById("simple-views-val");
+          if (sViewsLbl) sViewsLbl.textContent = formatNumber(views);
+          const sNiche = document.getElementById("simple-niche-select");
+          if (sNiche) sNiche.value = niche;
+          const sCountry = document.getElementById("simple-country-select");
+          if (sCountry) sCountry.value = country;
+
+          const pViews = document.getElementById("views-slider");
+          if (pViews) pViews.value = views;
+          const pViewsIn = document.getElementById("views-input");
+          if (pViewsIn) pViewsIn.value = views;
+          const pNiche = document.getElementById("niche-select");
+          if (pNiche) pNiche.value = niche;
+          const pCountry = document.getElementById("country-select");
+          if (pCountry) pCountry.value = country;
+
+          AudioHaptics.playClick(720);
+          showToast("Loaded Preset: " + chip.innerText.trim());
+          calculateAll();
+        });
+      });
+
+      // ======================================================================
+      // 39. REVERSE GOAL CALCULATOR LOGIC
+      // ======================================================================
+      safeListen("goal-target-input", "input", () => calculateAll());
+
+      // ======================================================================
+      // 40. COMMAND PALETTE (Ctrl + K / Spotlight Search)
+      // ======================================================================
+      const commandPalette = document.getElementById("command-palette-modal");
+      const commandSearchInput = document.getElementById("command-search-input");
+      const commandResults = document.getElementById("command-results-container");
+      let commandItems = [
+        { name: "Core Net Take-Home Dashboard", desc: "View take-home pay after 45% platform cuts and taxes", group: "Calculators", action: () => switchView("home") },
+        { name: "Sponsorship Rate Card Calculator", desc: "Price 60s integrations, dedicated videos, usage rights", group: "Calculators", action: () => switchView("sponsorship") },
+        { name: "Creator S-Corp vs LLC Tax Shield", desc: "Calculate 15.3% self-employment tax savings", group: "Calculators", action: () => switchView("tax") },
+        { name: "Revenue Diversification & FIRE", desc: "Calculate freedom number, 7 streams, and runway", group: "Calculators", action: () => switchView("growth") },
+        { name: "Visual Financial Analytics", desc: "Sensitivity matrices, cash flow forecasts, stress tests", group: "Calculators", action: () => switchView("analytics") },
+        { name: "Creator Academy & Guides", desc: "5-step masterclass, tax write-offs, formula glossaries", group: "Academy", action: () => switchView("academy") },
+        { name: "2026 RPM Benchmarks Hub", desc: "Explore RPM, CPM, and Sponsorship CPM across 20+ niches", group: "Academy", action: () => switchView("benchmarks") },
+        { name: "Print Official Tax Audit Report (PDF)", desc: "Export CPA-ready S-Corp vs LLC tax breakdown", group: "PDF Documents", action: () => openTaxReportModal() },
+        { name: "Print Media Kit Rate Card (PDF)", desc: "Export executive rate card for brand partners", group: "PDF Documents", action: () => { const m = document.getElementById("mediakit-modal"); if(m) m.classList.remove("hidden"); } },
+        { name: "Generate Legal Sponsorship Contract", desc: "Standard 50% upfront, Net-15, FTC disclosure contract", group: "PDF Documents", action: () => { const m = document.getElementById("contract-modal"); if(m) m.classList.remove("hidden"); } },
+        { name: "Generate Creator Sponsorship Invoice", desc: "Commercial invoice with wire info, VAT, and late fees", group: "PDF Documents", action: () => { const m = document.getElementById("invoice-modal"); if(m) m.classList.remove("hidden"); } },
+        { name: "Generate M&A Acquisition Termsheet", desc: "Channel valuation term sheet at 2.5x-4.5x SDE multiple", group: "PDF Documents", action: () => { const m = document.getElementById("ma-termsheet-modal"); if(m) m.classList.remove("hidden"); } },
+        { name: "Generate Shareable Social Image Card (PNG)", desc: "1200x630 graphic card for Twitter/Instagram/LinkedIn", group: "Share & Export", action: () => openShareCardModal() },
+        { name: "Toggle Audio Haptics", desc: "Turn tactile sound effects on or off", group: "Settings", action: () => AudioHaptics.toggle() },
+        { name: "Switch to Simple Mode", desc: "Fast 3-input 30-second estimator", group: "Settings", action: () => setAppMode("simple") },
+        { name: "Switch to Pro Institutional Mode", desc: "Full power access to all 36 financial engines", group: "Settings", action: () => setAppMode("pro") }
+      ];
+
+      let cmdSelectedIndex = 0;
+      let filteredCmds = [...commandItems];
+
+      function openCommandPalette() {
+        if (!commandPalette) return;
+        commandPalette.classList.remove("hidden");
+        if (commandSearchInput) {
+          commandSearchInput.value = "";
+          commandSearchInput.focus();
+        }
+        filterCommands("");
+        AudioHaptics.playClick(600);
+        if (window.lucide && typeof lucide.createIcons === 'function') lucide.createIcons();
+      }
+      window.openCommandPalette = openCommandPalette;
+
+      function closeCommandPalette() {
+        if (commandPalette) commandPalette.classList.add("hidden");
+      }
+      window.closeCommandPalette = closeCommandPalette;
+
+      function filterCommands(query) {
+        const q = (query || "").toLowerCase().trim();
+        filteredCmds = commandItems.filter(c => c.name.toLowerCase().includes(q) || c.desc.toLowerCase().includes(q) || c.group.toLowerCase().includes(q));
+        cmdSelectedIndex = 0;
+        renderCommands();
+      }
+
+      function renderCommands() {
+        if (!commandResults) return;
+        commandResults.innerHTML = "";
+        const badge = document.getElementById("command-count-badge");
+        if (badge) badge.textContent = filteredCmds.length + " available";
+
+        if (filteredCmds.length === 0) {
+          commandResults.innerHTML = '<div class="py-8 text-center text-slate-500 text-xs">No matching tools found. Try "Tax", "Shorts", or "Rate Card".</div>';
+          return;
+        }
+
+        const groups = {};
+        filteredCmds.forEach((item, idx) => {
+          if (!groups[item.group]) groups[item.group] = [];
+          groups[item.group].push({ ...item, filteredIdx: idx });
+        });
+
+        for (const [groupName, items] of Object.entries(groups)) {
+          const grpHeader = document.createElement("div");
+          grpHeader.className = "px-3 pt-2 pb-1 text-[10px] font-bold tracking-wider text-slate-500 uppercase font-mono";
+          grpHeader.textContent = groupName;
+          commandResults.appendChild(grpHeader);
+
+          items.forEach(item => {
+            const isSel = item.filteredIdx === cmdSelectedIndex;
+            const el = document.createElement("div");
+            el.className = "flex items-center justify-between px-3 py-2 rounded-xl cursor-pointer text-xs transition " + (isSel ? "bg-indigo-600 text-white" : "text-slate-300 hover:bg-slate-800/80");
+            el.innerHTML = '<div><p class="font-bold leading-tight">' + item.name + '</p><p class="text-[11px] ' + (isSel ? 'text-indigo-200' : 'text-slate-400') + ' mt-0.5">' + item.desc + '</p></div><span class="text-[10px] font-mono px-1.5 py-0.5 rounded ' + (isSel ? 'bg-indigo-700 text-indigo-100' : 'bg-slate-800 text-slate-400') + '">Open</span>';
+            el.addEventListener("click", () => {
+              closeCommandPalette();
+              item.action();
+            });
+            el.addEventListener("mouseenter", () => {
+              cmdSelectedIndex = item.filteredIdx;
+              renderCommands();
+            });
+            commandResults.appendChild(el);
+          });
+        }
+      }
+
+      if (commandSearchInput) {
+        commandSearchInput.addEventListener("input", (e) => filterCommands(e.target.value));
+      }
+
+      [document.getElementById("open-command-palette-btn")].forEach(btn => {
+        if (btn) safeListen(btn, "click", openCommandPalette);
+      });
+
+      // Global Keyboard Shortcut: Ctrl + K or Cmd + K
+      window.addEventListener("keydown", (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+          e.preventDefault();
+          if (commandPalette && commandPalette.classList.contains("hidden")) {
+            openCommandPalette();
+          } else {
+            closeCommandPalette();
+          }
+          return;
+        }
+
+        if (commandPalette && !commandPalette.classList.contains("hidden")) {
+          if (e.key === "Escape") {
+            e.preventDefault();
+            closeCommandPalette();
+          } else if (e.key === "ArrowDown") {
+            e.preventDefault();
+            if (filteredCmds.length > 0) {
+              cmdSelectedIndex = (cmdSelectedIndex + 1) % filteredCmds.length;
+              renderCommands();
+            }
+          } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            if (filteredCmds.length > 0) {
+              cmdSelectedIndex = (cmdSelectedIndex - 1 + filteredCmds.length) % filteredCmds.length;
+              renderCommands();
+            }
+          } else if (e.key === "Enter") {
+            e.preventDefault();
+            if (filteredCmds[cmdSelectedIndex]) {
+              closeCommandPalette();
+              filteredCmds[cmdSelectedIndex].action();
+            }
+          }
+        }
+      });
+
+      if (commandPalette) {
+        commandPalette.addEventListener("click", (e) => {
+          if (e.target === commandPalette) closeCommandPalette();
+        });
+      }
+
+      // ======================================================================
+      // 41. SOCIAL MEDIA SHARE CARD GENERATOR (HTML5 Canvas PNG)
+      // ======================================================================
+      const shareModal = document.getElementById("share-card-modal");
+      function openShareCardModal() {
+        if (shareModal) shareModal.classList.remove("hidden");
+        generateShareCard();
+        AudioHaptics.playClick(600);
+        if (window.lucide && typeof lucide.createIcons === 'function') lucide.createIcons();
+      }
+      window.openShareCardModal = openShareCardModal;
+
+      function closeShareCardModal() {
+        if (shareModal) shareModal.classList.add("hidden");
+      }
+      window.closeShareCardModal = closeShareCardModal;
+
+      [document.getElementById("open-share-card-btn")].forEach(btn => {
+        if (btn) safeListen(btn, "click", openShareCardModal);
+      });
+      safeListen("close-share-card-modal", "click", closeShareCardModal);
+
+      function generateShareCard() {
+        const canvas = document.getElementById("share-canvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const w = 1200;
+        const h = 630;
+
+        // Background
+        const grad = ctx.createLinearGradient(0, 0, w, h);
+        grad.addColorStop(0, "#090D16");
+        grad.addColorStop(0.5, "#0F172A");
+        grad.addColorStop(1, "#020617");
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, w, h);
+
+        // Ambient Glows
+        const glow1 = ctx.createRadialGradient(200, 150, 20, 200, 150, 400);
+        glow1.addColorStop(0, "rgba(99, 102, 241, 0.25)");
+        glow1.addColorStop(1, "transparent");
+        ctx.fillStyle = glow1;
+        ctx.fillRect(0, 0, w, h);
+
+        const glow2 = ctx.createRadialGradient(1000, 500, 20, 1000, 500, 400);
+        glow2.addColorStop(0, "rgba(16, 185, 129, 0.2)");
+        glow2.addColorStop(1, "transparent");
+        ctx.fillStyle = glow2;
+        ctx.fillRect(0, 0, w, h);
+
+        // Border
+        ctx.strokeStyle = "rgba(99, 102, 241, 0.35)";
+        ctx.lineWidth = 4;
+        ctx.strokeRect(30, 30, w - 60, h - 60);
+
+        // Top Brand Header
+        ctx.fillStyle = "#6366F1";
+        ctx.beginPath();
+        ctx.roundRect(70, 70, 50, 50, 12);
+        ctx.fill();
+
+        ctx.fillStyle = "#FFFFFF";
+        ctx.font = "bold 26px sans-serif";
+        ctx.fillText("TW", 78, 105);
+
+        ctx.font = "bold 28px sans-serif";
+        ctx.fillText("TWCreatorCalc PRO", 135, 96);
+        ctx.font = "16px monospace";
+        ctx.fillStyle = "#94A3B8";
+        ctx.fillText("2026/2027 Creator Financial Operating System", 135, 120);
+
+        // Channel Name & Badge
+        const chanName = state.channelName || "@TechWealthMedia";
+        ctx.font = "bold 34px sans-serif";
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillText(chanName, 70, 195);
+
+        ctx.fillStyle = "rgba(16, 185, 129, 0.2)";
+        ctx.beginPath();
+        ctx.roundRect(70, 215, 180, 32, 8);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(16, 185, 129, 0.5)";
+        ctx.strokeRect(70, 215, 180, 32);
+        ctx.fillStyle = "#34D399";
+        ctx.font = "bold 14px monospace";
+        ctx.fillText("AAA Prime Creator", 85, 236);
+
+        // 3 Major Metric Cards
+        const cardY = 280;
+        const cardW = 330;
+        const cardH = 200;
+
+        // Metric 1: Monthly Net Income
+        ctx.fillStyle = "rgba(15, 23, 42, 0.85)";
+        ctx.beginPath();
+        ctx.roundRect(70, cardY, cardW, cardH, 16);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(16, 185, 129, 0.4)";
+        ctx.strokeRect(70, cardY, cardW, cardH);
+
+        ctx.fillStyle = "#10B981";
+        ctx.font = "bold 14px monospace";
+        ctx.fillText("NET TAKE-HOME PAY", 95, cardY + 45);
+        ctx.fillStyle = "#FFFFFF";
+        ctx.font = "bold 44px monospace";
+        const netEl = document.getElementById("net-takehome-hero");
+        ctx.fillText((netEl ? netEl.textContent : "$4,850"), 95, cardY + 110);
+        ctx.fillStyle = "#94A3B8";
+        ctx.font = "14px sans-serif";
+        ctx.fillText("After 45% cut, adblock & taxes", 95, cardY + 155);
+
+        // Metric 2: 60s Sponsorship Rate
+        ctx.fillStyle = "rgba(15, 23, 42, 0.85)";
+        ctx.beginPath();
+        ctx.roundRect(435, cardY, cardW, cardH, 16);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(99, 102, 241, 0.4)";
+        ctx.strokeRect(435, cardY, cardW, cardH);
+
+        ctx.fillStyle = "#818CF8";
+        ctx.font = "bold 14px monospace";
+        ctx.fillText("STANDARD SPONSORSHIP", 460, cardY + 45);
+        ctx.fillStyle = "#FFFFFF";
+        ctx.font = "bold 44px monospace";
+        const spEl = document.getElementById("hero-sponsorship-rate");
+        ctx.fillText((spEl ? spEl.textContent : "$1,200"), 460, cardY + 110);
+        ctx.fillStyle = "#94A3B8";
+        ctx.font = "14px sans-serif";
+        ctx.fillText("60s Dedicated / Integration fee", 460, cardY + 155);
+
+        // Metric 3: S-Corp Tax Savings
+        ctx.fillStyle = "rgba(15, 23, 42, 0.85)";
+        ctx.beginPath();
+        ctx.roundRect(800, cardY, cardW, cardH, 16);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(245, 158, 11, 0.4)";
+        ctx.strokeRect(800, cardY, cardW, cardH);
+
+        ctx.fillStyle = "#FBBF24";
+        ctx.font = "bold 14px monospace";
+        ctx.fillText("S-CORP TAX SHIELD", 825, cardY + 45);
+        ctx.fillStyle = "#34D399";
+        ctx.font = "bold 44px monospace";
+        const txEl = document.getElementById("scorp-savings-amount");
+        ctx.fillText((txEl ? txEl.textContent : "+$3,400"), 825, cardY + 110);
+        ctx.fillStyle = "#94A3B8";
+        ctx.font = "14px sans-serif";
+        ctx.fillText("Annual self-employment savings", 825, cardY + 155);
+
+        // Footer
+        ctx.fillStyle = "#64748B";
+        ctx.font = "14px sans-serif";
+        ctx.fillText("Verified & Audited at twcreatorcalc.vercel.app • Official Creator Rate Card", 70, 560);
+        ctx.fillStyle = "#94A3B8";
+        ctx.font = "14px monospace";
+        ctx.fillText("Date: " + new Date().toLocaleDateString("en-US", { year: 'numeric', month: 'short', day: 'numeric' }), 980, 560);
+      }
+      window.generateShareCard = generateShareCard;
+
+      safeListen("download-share-card-btn", "click", () => {
+        const canvas = document.getElementById("share-canvas");
+        if (!canvas) return;
+        const link = document.createElement("a");
+        link.download = "twcreatorcalc_earnings_badge.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+        AudioHaptics.playClick(750);
+        showToast("Downloaded Creator Rate Card Image (PNG)!");
+      });
+
+      // Mobile Bottom Nav Switching
+      document.querySelectorAll(".mobile-nav-item").forEach(item => {
+        safeListen(item, "click", () => {
+          const v = item.dataset.view;
+          if (v) switchView(v);
+        });
+      });
+
+      // Initial Mode Setup
+      if (currentAppMode === "simple") {
+        if (simpleModeCard) simpleModeCard.classList.remove("hidden");
+      } else {
+        if (simpleModeCard) simpleModeCard.classList.add("hidden");
+      }
+
       // 37. Audio Haptics Toggle
       safeListen("audio-toggle-btn", "click", () => {
         AudioHaptics.enabled = !AudioHaptics.enabled;
@@ -6881,7 +7544,7 @@ Partnerships Lead | ${channel}`;
           [
             "help-modal", "contract-modal", "negotiation-modal", 
             "ma-termsheet-modal", "invoice-modal", "scam-modal", 
-            "embed-modal", "mediakit-modal", "tax-report-modal"
+            "embed-modal", "mediakit-modal", "tax-report-modal", "command-palette-modal", "share-card-modal"
           ].forEach(mId => {
             const m = document.getElementById(mId);
             if (m && !m.classList.contains("hidden")) m.classList.add("hidden");
@@ -6907,7 +7570,7 @@ Partnerships Lead | ${channel}`;
       [
         "help-modal", "contract-modal", "negotiation-modal", 
         "ma-termsheet-modal", "invoice-modal", "scam-modal", 
-        "embed-modal", "mediakit-modal", "tax-report-modal", "mobile-tools-drawer"
+        "embed-modal", "mediakit-modal", "tax-report-modal", "command-palette-modal", "share-card-modal", "mobile-tools-drawer"
       ].forEach(mId => {
         const modalEl = document.getElementById(mId);
         if (modalEl) {
@@ -7277,5 +7940,147 @@ Partnerships Lead | ${channel}`;
     });
 
   </script>
+
+  <!-- =====================================================================
+       SPOTLIGHT COMMAND PALETTE MODAL (Ctrl + K)
+       ===================================================================== -->
+  <div id="command-palette-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden flex items-start justify-center pt-16 sm:pt-24 px-4">
+    <div class="w-full max-w-xl bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[80vh] animate-in fade-in zoom-in-95 duration-150">
+      
+      <!-- Search Input Header -->
+      <div class="flex items-center px-4 py-3 border-b border-slate-800 gap-3">
+        <i data-lucide="search" class="w-5 h-5 text-indigo-400 shrink-0"></i>
+        <input 
+          type="text" 
+          id="command-search-input" 
+          placeholder="Search 36 calculators, tax tools, contracts, formulas... (e.g., 'Tax', 'RPM', 'Shorts')" 
+          class="w-full bg-transparent text-white placeholder-slate-500 focus:outline-none text-sm"
+          autocomplete="off"
+        >
+        <span class="text-[10px] bg-slate-800 border border-slate-700 text-slate-400 px-2 py-0.5 rounded font-mono">ESC</span>
+      </div>
+
+      <!-- Results Container -->
+      <div id="command-results-container" class="overflow-y-auto p-2 space-y-1 flex-1 max-h-[50vh]">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="bg-slate-950/80 py-2.5 px-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400 font-mono">
+        <div class="flex items-center gap-3">
+          <span><kbd class="bg-slate-800 border border-slate-700 px-1 rounded text-[10px]">↑</kbd><kbd class="bg-slate-800 border border-slate-700 px-1 rounded text-[10px]">↓</kbd> Navigate</span>
+          <span><kbd class="bg-slate-800 border border-slate-700 px-1.5 rounded text-[10px]">↵</kbd> Open</span>
+        </div>
+        <span id="command-count-badge" class="text-slate-500 text-[11px]">36 tools available</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       VIRAL SOCIAL SHARE CARD GENERATOR MODAL (PNG Export)
+       ===================================================================== -->
+  <div id="share-card-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-2xl w-full p-4 sm:p-6 space-y-4 relative max-h-[92vh] overflow-y-auto text-left shadow-2xl">
+      <button id="close-share-card-modal" class="absolute top-4 right-4 text-slate-400 hover:text-white p-1.5 rounded-lg bg-slate-800 cursor-pointer z-10">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex items-center gap-2.5 border-b border-slate-800 pb-3">
+        <div class="w-8 h-8 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center">
+          <i data-lucide="share-2" class="w-4 h-4"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white">Social Rate Card &amp; Earnings Badge (PNG)</h3>
+          <p class="text-xs text-slate-400">1200x630px high-res graphic ready for Twitter/X, Instagram, and LinkedIn</p>
+        </div>
+      </div>
+
+      <!-- Canvas Preview Area -->
+      <div class="bg-slate-950 rounded-2xl p-2 border border-slate-800 flex items-center justify-center overflow-hidden">
+        <canvas id="share-canvas" width="1200" height="630" class="w-full h-auto rounded-xl border border-slate-800/80 shadow-2xl"></canvas>
+      </div>
+
+      <div class="flex items-center justify-between border-t border-slate-800 pt-3 flex-wrap gap-2">
+        <p class="text-xs text-slate-400">Generated dynamically from your current inputs</p>
+        <div class="flex items-center gap-2">
+          <button id="download-share-card-btn" type="button" class="px-4 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold flex items-center gap-2 transition shadow-lg shadow-purple-900/30 cursor-pointer">
+            <i data-lucide="download" class="w-4 h-4"></i>
+            <span>Download PNG Image (1200x630)</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       STICKY FLOATING MINI FINANCIAL HUD (Bottom-Right Pill)
+       ===================================================================== -->
+  <div id="sticky-financial-hud" class="fixed bottom-4 right-4 z-30 hidden sm:flex items-center gap-3 bg-slate-950/95 border border-slate-800/90 backdrop-blur-xl p-2 px-3.5 rounded-2xl shadow-2xl text-xs transition-all duration-200">
+    <div class="flex items-center gap-1.5 text-slate-400">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      <span class="text-[10px] uppercase font-mono font-bold text-slate-400">Live</span>
+    </div>
+
+    <div class="h-4 w-px bg-slate-800"></div>
+
+    <div class="flex items-center gap-1">
+      <span class="text-slate-400">Net:</span>
+      <strong id="hud-net-income" class="font-mono text-emerald-400 font-bold">$4,850</strong>
+    </div>
+
+    <div class="h-4 w-px bg-slate-800"></div>
+
+    <div class="flex items-center gap-1">
+      <span class="text-slate-400">Sponsor:</span>
+      <strong id="hud-sponsor-rate" class="font-mono text-indigo-400 font-bold">$1,200</strong>
+    </div>
+
+    <div class="h-4 w-px bg-slate-800"></div>
+
+    <div class="flex items-center gap-1">
+      <span class="text-slate-400">Tax Shield:</span>
+      <strong id="hud-tax-saved" class="font-mono text-amber-400 font-bold">+$3,400</strong>
+    </div>
+
+    <div class="flex items-center gap-1 ml-1">
+      <button type="button" onclick="window.print()" class="p-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white cursor-pointer" title="Print PDF">
+        <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+      </button>
+      <button type="button" onclick="openCommandPalette()" class="p-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white cursor-pointer" title="Quick Search (Ctrl+K)">
+        <i data-lucide="search" class="w-3.5 h-3.5"></i>
+      </button>
+      <button type="button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white cursor-pointer" title="Back to Top">
+        <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MOBILE BOTTOM NAVIGATION BAR (Screens < 768px, App-Like Experience)
+       ===================================================================== -->
+  <nav id="mobile-bottom-nav" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 border-t border-slate-800/90 backdrop-blur-xl px-2 py-1.5 flex items-center justify-around text-slate-400 shadow-2xl">
+    <button type="button" data-view="home" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-indigo-400 cursor-pointer">
+      <i data-lucide="layout-dashboard" class="w-4 h-4"></i>
+      <span class="text-[9px] font-semibold">Home</span>
+    </button>
+    <button type="button" data-view="sponsorship" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+      <i data-lucide="award" class="w-4 h-4"></i>
+      <span class="text-[9px] font-semibold">Sponsor</span>
+    </button>
+    <button type="button" data-view="tax" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+      <i data-lucide="scale" class="w-4 h-4"></i>
+      <span class="text-[9px] font-semibold">Tax Shield</span>
+    </button>
+    <button type="button" data-view="growth" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+      <i data-lucide="trending-up" class="w-4 h-4"></i>
+      <span class="text-[9px] font-semibold">Growth</span>
+    </button>
+    <button type="button" onclick="openCommandPalette()" class="flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+      <i data-lucide="search" class="w-4 h-4 text-amber-400"></i>
+      <span class="text-[9px] font-semibold">Search</span>
+    </button>
+  </nav>
+
 </body>
 </html>
