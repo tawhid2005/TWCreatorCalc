@@ -546,6 +546,54 @@
       scroll-behavior: smooth;
     }
 
+    /* =====================================================================
+       PROFESSIONAL FINTECH COLOR GRADING & SURFACE TOKENS
+       ===================================================================== */
+    :root {
+      --color-canvas: #080B14;
+      --color-surface: #0E1322;
+      --color-surface-hover: #141C30;
+      --color-border: rgba(255, 255, 255, 0.08);
+      --color-border-glow: rgba(99, 102, 241, 0.35);
+      --color-emerald-mint: #10B981;
+      --color-indigo-core: #6366F1;
+      --color-amber-gold: #F59E0B;
+    }
+
+    body {
+      background-color: var(--color-canvas) !important;
+      color: #F8FAFC !important;
+    }
+
+    /* Subtle luxury surface glow on cards */
+    .suite-view-pane div[class*="bg-slate-900"] {
+      background-color: rgba(14, 19, 34, 0.88) !important;
+      border-color: rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45), inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .suite-view-pane div[class*="bg-slate-900"]:hover {
+      border-color: rgba(99, 102, 241, 0.25) !important;
+    }
+
+    /* Executive Header & Navigation Glass */
+    header,
+    #global-suite-nav {
+      background-color: rgba(8, 11, 20, 0.94) !important;
+      backdrop-filter: blur(20px) !important;
+      -webkit-backdrop-filter: blur(20px) !important;
+      border-bottom-color: rgba(255, 255, 255, 0.08) !important;
+    }
+
+    /* Mobile Bottom Navigation Bar Glass */
+    #mobile-bottom-nav {
+      background-color: rgba(8, 11, 20, 0.96) !important;
+      backdrop-filter: blur(24px) !important;
+      -webkit-backdrop-filter: blur(24px) !important;
+      border-top-color: rgba(255, 255, 255, 0.08) !important;
+    }
+
     /* Mobile UX Optimizations: Prevent iOS auto-zoom on form focus */
     @media (max-width: 768px) {
       input[type="text"],
@@ -907,7 +955,7 @@
 
   
   <!-- MAIN APP CONTAINER -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-8">
+  <main class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-5 pb-24 md:pb-12 space-y-8">
     <!-- EXECUTIVE PRINTABLE HEADER (Visible only in print mode) -->
     <div class="hidden print-executive-header">
       <div class="flex items-center justify-between border-b-2 border-slate-900 pb-3 mb-4 font-sans">
@@ -1076,13 +1124,17 @@
       <!-- Quick Action Buttons -->
       <div class="flex items-center justify-between border-t border-slate-800/80 pt-4 flex-wrap gap-3 no-print">
         <div class="flex items-center gap-2">
-          <button id="simple-share-btn" type="button" class="px-3.5 py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/40 text-purple-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
+          <button id="simple-share-btn" type="button" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/40 text-purple-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
             <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
-            <span>Share Image Badge (PNG)</span>
+            <span>Share Image (PNG)</span>
           </button>
-          <button id="simple-pdf-btn" type="button" class="px-3.5 py-2 rounded-xl bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/40 text-indigo-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
+          <button id="simple-copy-pitch-btn" type="button" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-indigo-500/50 text-slate-300 hover:text-white text-xs font-bold flex items-center gap-1.5 transition cursor-pointer" title="Copy 1-Click Executive Pitch for Brand Deals">
+            <i data-lucide="copy" class="w-3.5 h-3.5 text-indigo-400"></i>
+            <span id="simple-copy-pitch-label">Copy Pitch Text</span>
+          </button>
+          <button id="simple-pdf-btn" type="button" class="px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/40 text-indigo-300 text-xs font-bold flex items-center gap-1.5 transition cursor-pointer">
             <i data-lucide="printer" class="w-3.5 h-3.5"></i>
-            <span>Print Executive PDF</span>
+            <span>Executive PDF</span>
           </button>
         </div>
         <button id="simple-explore-pro-btn" type="button" class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center gap-2 transition shadow-lg shadow-indigo-900/30 cursor-pointer">
@@ -1700,7 +1752,11 @@
               Price your channel based on audience demographics, protect against malicious brand phishing, negotiate higher fees with low-ball counter scripts, and execute enforceable legal contracts.
             </p>
           </div>
-          <div class="flex items-center gap-2">
+          <div class="flex flex-wrap items-center gap-2">
+            <button onclick="copyCreatorPitch()" class="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-indigo-500/50 text-slate-200 hover:text-white font-bold text-xs flex items-center gap-2 transition cursor-pointer">
+              <i data-lucide="copy" class="w-4 h-4 text-indigo-400"></i>
+              <span>Copy Rate Card Pitch</span>
+            </button>
             <button onclick="document.getElementById('open-mediakit-modal').click()" class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs flex items-center gap-2 transition cursor-pointer shadow-lg shadow-indigo-600/30">
               <i data-lucide="award" class="w-4 h-4"></i>
               <span>Official Rate Card</span>
@@ -7090,6 +7146,38 @@ Partnerships Lead | ${channel}`;
       safeListen("simple-pdf-btn", "click", () => printDocument(null));
       safeListen("simple-share-btn", "click", () => openShareCardModal());
 
+      // 1-Click Executive Creator Pitch Copy
+      function copyCreatorPitch() {
+        const chan = state.channelName || "@TechWealthMedia";
+        const netMo = document.getElementById("simple-net-income")?.innerText?.split('/')[0]?.trim() || "$15,170";
+        const spon = document.getElementById("simple-sponsor-rate")?.innerText?.split('/')[0]?.trim() || "$2,554";
+        const taxSav = document.getElementById("simple-tax-saved")?.innerText?.split('/')[0]?.trim() || "+$16,711";
+        const viewsStr = formatNumber(state.monthlyViews);
+
+        const pitchText = 
+`📊 ${chan} — Verified 2026 Creator Rate Card & Financial Overview:
+• Monthly Video Views: ${viewsStr} views/mo
+• Estimated Net Take-Home: ${netMo}/mo
+• Standard 60s Integration Rate: ${spon}/deal
+• S-Corp Tax Shield: ${taxSav}/yr saved
+• Credit Rating: AAA Prime Creator
+🔗 Verified by TWCreatorCalc: https://twcreatorcalc.vercel.app/`;
+
+        navigator.clipboard.writeText(pitchText).then(() => {
+          showToast("Copied Executive Pitch Text to Clipboard!");
+          AudioHaptics.playClick(750);
+          const lbl = document.getElementById("simple-copy-pitch-label");
+          if (lbl) {
+            lbl.textContent = "Copied! ✓";
+            setTimeout(() => { lbl.textContent = "Copy Pitch Text"; }, 2500);
+          }
+        }).catch(() => {
+          showToast("Press Ctrl+C to copy pitch");
+        });
+      }
+      window.copyCreatorPitch = copyCreatorPitch;
+      safeListen("simple-copy-pitch-btn", "click", copyCreatorPitch);
+
       // ======================================================================
       // 38. 1-CLICK CREATOR PERSONA PRESETS
       // ======================================================================
@@ -7887,6 +7975,7 @@ Partnerships Lead | ${channel}`;
     let isAllSuitesMode = false;
 
     function switchSuiteView(viewName, updateHash = true) {
+      if (viewName === 'benchmarks') viewName = 'seo-hub';
       if (!SUITE_VIEWS.includes(viewName)) viewName = 'home';
       currentSuiteView = viewName;
       isAllSuitesMode = false;
@@ -7927,6 +8016,29 @@ Partnerships Lead | ${channel}`;
         }
       });
 
+      // Synchronize Mobile Bottom Navigation Bar Active State
+      document.querySelectorAll('.mobile-nav-item').forEach(btn => {
+        const svg = btn.querySelector('svg, i');
+        const span = btn.querySelector('span');
+        if (btn.dataset.view === viewName) {
+          btn.classList.add('text-indigo-400');
+          btn.classList.remove('text-slate-400');
+          if (svg) {
+            svg.classList.add('text-indigo-400');
+            svg.classList.remove('text-slate-400');
+          }
+          if (span) span.className = 'text-[10px] font-bold text-indigo-300';
+        } else {
+          btn.classList.remove('text-indigo-400');
+          btn.classList.add('text-slate-400');
+          if (svg) {
+            svg.classList.remove('text-indigo-400');
+            svg.classList.add('text-slate-400');
+          }
+          if (span) span.className = 'text-[10px] font-semibold text-slate-400';
+        }
+      });
+
       document.title = SUITE_TITLES[viewName] || SUITE_TITLES['home'];
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc && SUITE_DESCRIPTIONS[viewName]) metaDesc.setAttribute('content', SUITE_DESCRIPTIONS[viewName]);
@@ -7955,6 +8067,7 @@ Partnerships Lead | ${channel}`;
       calculateAll();
     }
     window.switchSuiteView = switchSuiteView;
+    window.switchView = switchSuiteView;
 
     function toggleAllSuites() {
       isAllSuitesMode = !isAllSuitesMode;
@@ -8204,26 +8317,26 @@ Partnerships Lead | ${channel}`;
   <!-- =====================================================================
        MOBILE BOTTOM NAVIGATION BAR (Screens < 768px, App-Like Experience)
        ===================================================================== -->
-  <nav id="mobile-bottom-nav" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 border-t border-slate-800/90 backdrop-blur-xl px-2 py-1.5 flex items-center justify-around text-slate-400 shadow-2xl">
-    <button type="button" data-view="home" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-indigo-400 cursor-pointer">
+  <nav id="mobile-bottom-nav" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#080C18]/95 border-t border-slate-800/80 backdrop-blur-2xl px-3 py-2 flex items-center justify-around text-slate-400 shadow-2xl shadow-black/90">
+    <button type="button" data-view="home" class="mobile-nav-item flex flex-col items-center justify-center gap-1 px-3 py-1 rounded-xl text-indigo-400 cursor-pointer transition-all active:scale-95">
       <i data-lucide="layout-dashboard" class="w-4 h-4"></i>
-      <span class="text-[9px] font-semibold">Home</span>
+      <span class="text-[10px] font-bold">Home</span>
     </button>
-    <button type="button" data-view="sponsorship" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+    <button type="button" data-view="sponsorship" class="mobile-nav-item flex flex-col items-center justify-center gap-1 px-3 py-1 rounded-xl text-slate-400 hover:text-white cursor-pointer transition-all active:scale-95">
       <i data-lucide="award" class="w-4 h-4"></i>
-      <span class="text-[9px] font-semibold">Sponsor</span>
+      <span class="text-[10px] font-semibold">Sponsor</span>
     </button>
-    <button type="button" data-view="tax" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+    <button type="button" data-view="tax" class="mobile-nav-item flex flex-col items-center justify-center gap-1 px-3 py-1 rounded-xl text-slate-400 hover:text-white cursor-pointer transition-all active:scale-95">
       <i data-lucide="scale" class="w-4 h-4"></i>
-      <span class="text-[9px] font-semibold">Tax Shield</span>
+      <span class="text-[10px] font-semibold">Tax Shield</span>
     </button>
-    <button type="button" data-view="growth" class="mobile-nav-item flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+    <button type="button" data-view="growth" class="mobile-nav-item flex flex-col items-center justify-center gap-1 px-3 py-1 rounded-xl text-slate-400 hover:text-white cursor-pointer transition-all active:scale-95">
       <i data-lucide="trending-up" class="w-4 h-4"></i>
-      <span class="text-[9px] font-semibold">Growth</span>
+      <span class="text-[10px] font-semibold">Growth</span>
     </button>
-    <button type="button" onclick="openCommandPalette()" class="flex flex-col items-center gap-1 p-1 text-slate-400 hover:text-white cursor-pointer">
+    <button type="button" onclick="openCommandPalette()" class="flex flex-col items-center justify-center gap-1 px-3 py-1 rounded-xl text-slate-400 hover:text-white cursor-pointer transition-all active:scale-95">
       <i data-lucide="search" class="w-4 h-4 text-amber-400"></i>
-      <span class="text-[9px] font-semibold">Search</span>
+      <span class="text-[10px] font-semibold">Search</span>
     </button>
   </nav>
 
