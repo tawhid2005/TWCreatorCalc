@@ -1033,19 +1033,19 @@
           <span>Click any persona to auto-tune all 2026 benchmarks:</span>
         </div>
         <div class="flex items-center justify-center gap-2 flex-wrap text-xs">
-          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="150000" data-niche="gaming" data-country="US" data-sponsors="1">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="150000" data-niche="gaming" data-geo="tier3_global">
             <span>🎮</span> <strong class="text-white">Gaming Streamer</strong> <span class="text-slate-500 text-[10px]">(150K Views)</span>
           </button>
-          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="35000" data-niche="finance" data-country="US" data-sponsors="2">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="35000" data-niche="finance" data-geo="tier1_us">
             <span>📈</span> <strong class="text-white">Finance &amp; SaaS</strong> <span class="text-slate-500 text-[10px]">(35K Views)</span>
           </button>
-          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="80000" data-niche="tech" data-country="US" data-sponsors="2">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="80000" data-niche="saas_tech" data-geo="tier1_us">
             <span>💻</span> <strong class="text-white">Tech Reviewer</strong> <span class="text-slate-500 text-[10px]">(80K Views)</span>
           </button>
-          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-rose-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="2500000" data-niche="entertainment" data-country="US" data-sponsors="3">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-rose-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="2500000" data-niche="entertainment" data-geo="tier1_us" data-platform="yt_shorts">
             <span>📱</span> <strong class="text-white">Shorts / Reels</strong> <span class="text-slate-500 text-[10px]">(2.5M Views)</span>
           </button>
-          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-amber-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="60000" data-niche="lifestyle" data-country="GB" data-sponsors="1">
+          <button type="button" class="persona-chip px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-amber-500/50 text-slate-300 hover:text-white flex items-center gap-1.5 transition cursor-pointer" data-views="60000" data-niche="lifestyle_vlog" data-geo="tier1_us">
             <span>🍳</span> <strong class="text-white">Lifestyle &amp; Vlog</strong> <span class="text-slate-500 text-[10px]">(60K Views)</span>
           </button>
         </div>
@@ -1092,13 +1092,15 @@
         <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 space-y-3">
           <label class="text-xs font-semibold text-slate-300 block">2. Channel Content Niche</label>
           <select id="simple-niche-select" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs font-medium text-white focus:outline-none focus:border-indigo-500 cursor-pointer">
-            <option value="finance">💰 Personal Finance &amp; Crypto ($18.50 RPM)</option>
-            <option value="tech" selected>💻 Tech, Software &amp; AI ($9.20 RPM)</option>
-            <option value="education">🎓 Business &amp; Education ($6.40 RPM)</option>
-            <option value="lifestyle">🍳 Lifestyle, Food &amp; Fitness ($5.10 RPM)</option>
-            <option value="gaming">🎮 Gaming &amp; Live Streaming ($2.40 RPM)</option>
-            <option value="entertainment">🍿 Comedy &amp; Entertainment ($2.80 RPM)</option>
-            <option value="shorts">📱 YouTube Shorts Focus ($0.04 RPM)</option>
+            <option value="finance" selected>💰 Personal Finance &amp; Investing ($28.00 CPM)</option>
+            <option value="saas_tech">💻 SaaS, AI &amp; Software ($22.00 CPM)</option>
+            <option value="make_money">💼 Business &amp; Make Money ($24.00 CPM)</option>
+            <option value="legal_insurance">⚖️ Legal &amp; Insurance ($32.00 CPM)</option>
+            <option value="health_fitness">💪 Health &amp; Fitness ($11.00 CPM)</option>
+            <option value="education">🎓 Education &amp; Tutorials ($9.00 CPM)</option>
+            <option value="lifestyle_vlog">🍳 Lifestyle, Food &amp; Vlogs ($6.50 CPM)</option>
+            <option value="gaming">🎮 Gaming &amp; Live Streaming ($4.50 CPM)</option>
+            <option value="entertainment">🍿 Comedy &amp; Entertainment ($5.00 CPM)</option>
           </select>
           <p class="text-[10px] text-slate-400">Selects verified 2026 advertiser ad-rate index</p>
         </div>
@@ -1107,13 +1109,10 @@
         <div class="bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 space-y-3">
           <label class="text-xs font-semibold text-slate-300 block">3. Primary Audience Geo</label>
           <select id="simple-country-select" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3 py-2 text-xs font-medium text-white focus:outline-none focus:border-indigo-500 cursor-pointer">
-            <option value="US" selected>🇺🇸 United States (Tier 1 • 1.00x Base)</option>
-            <option value="GB">🇬🇧 United Kingdom (Tier 1 • 0.92x Base)</option>
-            <option value="CA">🇨🇦 Canada (Tier 1 • 0.90x Base)</option>
-            <option value="DE">🇩🇪 Germany &amp; Europe (Tier 1 • 0.88x Base)</option>
-            <option value="BD">🇧🇩 Bangladesh / Global Tier 3 (0.28x Base)</option>
-            <option value="IN">🇮🇳 India (Tier 3 • 0.32x Base)</option>
-            <option value="AE">🇦🇪 UAE &amp; Gulf (Tier 2 • 0.75x Base)</option>
+            <option value="tier1_us" selected>🇺🇸 Tier 1: USA, UK, Canada, Australia (1.8x CPM)</option>
+            <option value="tier2_eu">🇪🇺 Tier 2: Western Europe, UAE, Singapore (1.1x CPM)</option>
+            <option value="tier3_global">🌏 Tier 3: India, Bangladesh, South Asia (0.18x CPM)</option>
+            <option value="mixed">🌐 Global Mixed Audience (0.75x CPM)</option>
           </select>
           <p class="text-[10px] text-slate-400">Adjusts for viewer purchasing power &amp; tax treaty</p>
         </div>
@@ -5290,6 +5289,12 @@
       return false;
     }
 
+    function formatNumber(num) {
+      if (num === null || num === undefined || isNaN(num)) return "0";
+      return Math.round(Number(num)).toLocaleString();
+    }
+    window.formatNumber = formatNumber;
+
     function formatMoney(amountInUSD, includeDecimals = true) {
       const curr = TW_CREATOR_DATA.currencyRates[state.currency] || TW_CREATOR_DATA.currencyRates.USD;
       const converted = amountInUSD * curr.rate;
@@ -5591,7 +5596,97 @@
 
       // UPDATE JSON-LD SCHEMA
       updateJsonLdSchema(trueNetMonthly, effectiveRPM);
+
+      // =====================================================================
+      // LIVE AUTO-UPDATE: SIMPLE MODE, REVERSE GOAL, STICKY HUD & TAX REPORT
+      // =====================================================================
+      // 1. S-Corp Tax Savings Amount
+      const annualProfit = trueNetYearly;
+      const llcSelfEmpTax = annualProfit * 0.153;
+      const scorpSalary = annualProfit * 0.40;
+      const scorpSelfEmpTax = scorpSalary * 0.153;
+      const currentScorpSavings = Math.max(0, llcSelfEmpTax - scorpSelfEmpTax);
+
+      // 2. Simple Mode Display Values
+      const sNet = document.getElementById("simple-net-income");
+      if (sNet) sNet.innerHTML = formatMoney(trueNetMonthly, false) + ' <span class="text-xs font-normal text-slate-400">/ mo</span>';
+      
+      const sSpon = document.getElementById("simple-sponsor-rate");
+      if (sSpon) sSpon.innerHTML = formatMoney(baseDedicatedRate, false) + ' <span class="text-xs font-normal text-slate-400">/ video</span>';
+      
+      const sTax = document.getElementById("simple-tax-saved");
+      if (sTax) sTax.innerHTML = "+" + formatMoney(currentScorpSavings, false) + ' <span class="text-xs font-normal text-slate-400">/ yr</span>';
+
+      const sViewsLbl = document.getElementById("simple-views-val");
+      if (sViewsLbl) sViewsLbl.textContent = formatNumber(state.monthlyViews);
+
+      const sViewsSlider = document.getElementById("simple-views-slider");
+      if (sViewsSlider && sViewsSlider.value != state.monthlyViews) {
+        sViewsSlider.value = state.monthlyViews;
+      }
+
+      const sNicheSelect = document.getElementById("simple-niche-select");
+      if (sNicheSelect && sNicheSelect.value !== state.niche) {
+        sNicheSelect.value = state.niche;
+      }
+
+      const sCountrySelect = document.getElementById("simple-country-select");
+      if (sCountrySelect && sCountrySelect.value !== state.geo) {
+        sCountrySelect.value = state.geo;
+      }
+
+      // 3. Sticky Mini Financial HUD
+      const hudNet = document.getElementById("hud-net-income");
+      if (hudNet) hudNet.textContent = formatMoney(trueNetMonthly, false) + "/mo";
+
+      const hudSpon = document.getElementById("hud-sponsor-rate");
+      if (hudSpon) hudSpon.textContent = formatMoney(baseDedicatedRate, false);
+
+      const hudTax = document.getElementById("hud-tax-saved");
+      if (hudTax) hudTax.textContent = "+" + formatMoney(currentScorpSavings, false);
+
+      // 4. Reverse Goal Engine
+      const goalInput = document.getElementById("goal-target-input");
+      const targetMonthlyGoal = goalInput ? (parseFloat(goalInput.value) || 5000) : 5000;
+      const safeRpm = Math.max(0.2, effectiveRPM);
+      const reqViews = Math.round((targetMonthlyGoal / safeRpm) * 1000);
+      const reqVideos = Math.max(1, Math.round(reqViews / Math.max(1000, state.monthlyViews / Math.max(1, state.prodVideosPerMonth || 4))));
+      const hybridViews = Math.max(0, Math.round(((targetMonthlyGoal - baseDedicatedRate) / safeRpm) * 1000));
+
+      const goalViewsEl = document.getElementById("goal-req-views");
+      if (goalViewsEl) goalViewsEl.textContent = formatNumber(reqViews);
+
+      const goalVidsEl = document.getElementById("goal-req-videos");
+      if (goalVidsEl) goalVidsEl.textContent = reqVideos + " Videos";
+
+      const goalHybEl = document.getElementById("goal-req-hybrid");
+      if (goalHybEl) goalHybEl.textContent = formatMoney(baseDedicatedRate, false) + " + " + formatNumber(hybridViews) + " Views";
+
+      const goalProgressPct = Math.min(200, Math.round((trueNetMonthly / targetMonthlyGoal) * 100));
+      const goalPctEl = document.getElementById("goal-progress-pct");
+      if (goalPctEl) goalPctEl.textContent = goalProgressPct + "%";
+
+      const goalBarEl = document.getElementById("goal-progress-bar");
+      if (goalBarEl) goalBarEl.style.width = Math.min(100, goalProgressPct) + "%";
+
+      // 5. Official Tax Report Modal Values
+      const trChan = document.getElementById("tax-report-channel-name");
+      if (trChan) trChan.textContent = state.channelName || "@TechWealthMedia";
+      const trNet = document.getElementById("tax-report-net-profit");
+      if (trNet) trNet.textContent = formatMoney(annualProfit, false);
+      const trLlc = document.getElementById("tax-report-llc-tax");
+      if (trLlc) trLlc.textContent = "-" + formatMoney(llcSelfEmpTax, false);
+      const trScorp = document.getElementById("tax-report-scorp-tax");
+      if (trScorp) trScorp.textContent = "-" + formatMoney(scorpSelfEmpTax, false);
+      const trCash = document.getElementById("tax-report-cash-kept");
+      if (trCash) trCash.textContent = "+" + formatMoney(currentScorpSavings, false);
+      const trW2 = document.getElementById("tax-report-w2-salary");
+      if (trW2) trW2.textContent = formatMoney(scorpSalary, false) + " / yr";
+      const trDist = document.getElementById("tax-report-distributions");
+      if (trDist) trDist.textContent = formatMoney(Math.max(0, annualProfit - scorpSalary), false) + " / yr";
     }
+    window.calculateAll = calculateAll;
+    window.state = state;
 
     /* =====================================================================
        WALL STREET CREATOR CREDIT RATING
@@ -6512,6 +6607,8 @@ Partnerships Lead | ${channel}`;
       document.querySelectorAll('input[name="geo"]').forEach(radio => {
         safeListen(radio, "change", (e) => {
           state.geo = e.target.value;
+          const sCountry = document.getElementById("simple-country-select");
+          if (sCountry) sCountry.value = e.target.value;
           updateGeoCardsUI();
           AudioHaptics.playClick(540);
           calculateAll();
@@ -6536,6 +6633,10 @@ Partnerships Lead | ${channel}`;
           const val = parseInt(e.target.value);
           state.monthlyViews = val;
           if (viewsInput) viewsInput.value = val;
+          const sViews = document.getElementById("simple-views-slider");
+          if (sViews) sViews.value = val;
+          const sViewsLbl = document.getElementById("simple-views-val");
+          if (sViewsLbl) sViewsLbl.textContent = formatNumber(val);
           calculateAll();
         });
       }
@@ -7025,29 +7126,30 @@ Partnerships Lead | ${channel}`;
 
       // Simple Mode Inputs Synchronization
       safeListen("simple-views-slider", "input", (e) => {
-        const val = parseFloat(e.target.value) || 0;
+        const val = parseInt(e.target.value) || 0;
+        state.monthlyViews = val;
         const valLabel = document.getElementById("simple-views-val");
         if (valLabel) valLabel.textContent = formatNumber(val);
-        state.monthlyViews = val;
-        // Sync to pro view slider
+        // Sync to pro view slider & number input
         const proSlider = document.getElementById("views-slider");
         if (proSlider) proSlider.value = val;
-        const proInput = document.getElementById("views-input");
+        const proInput = document.getElementById("views-number-input");
         if (proInput) proInput.value = val;
         calculateAll();
       });
 
       safeListen("simple-niche-select", "change", (e) => {
-        state.channelNiche = e.target.value;
+        state.niche = e.target.value;
         const proSelect = document.getElementById("niche-select");
         if (proSelect) proSelect.value = e.target.value;
         calculateAll();
       });
 
       safeListen("simple-country-select", "change", (e) => {
-        state.primaryCountry = e.target.value;
-        const proCountry = document.getElementById("country-select");
-        if (proCountry) proCountry.value = e.target.value;
+        state.geo = e.target.value;
+        const proRadio = document.querySelector('input[name="geo"][value="' + e.target.value + '"]');
+        if (proRadio) proRadio.checked = true;
+        if (typeof updateGeoCardsUI === 'function') updateGeoCardsUI();
         calculateAll();
       });
 
@@ -7059,17 +7161,17 @@ Partnerships Lead | ${channel}`;
       // ======================================================================
       document.querySelectorAll(".persona-chip").forEach(chip => {
         safeListen(chip, "click", () => {
-          const views = parseFloat(chip.dataset.views) || 100000;
-          const niche = chip.dataset.niche || "tech";
-          const country = chip.dataset.country || "US";
-          const sponsors = parseFloat(chip.dataset.sponsors) || 1;
+          const views = parseInt(chip.dataset.views) || 100000;
+          const niche = chip.dataset.niche || "saas_tech";
+          const geo = chip.dataset.geo || "tier1_us";
+          const platform = chip.dataset.platform;
 
           state.monthlyViews = views;
-          state.channelNiche = niche;
-          state.primaryCountry = country;
-          state.monthlySponsorships = sponsors;
+          state.niche = niche;
+          state.geo = geo;
+          if (platform) state.platform = platform;
 
-          // Sync inputs
+          // Sync simple inputs
           const sViews = document.getElementById("simple-views-slider");
           if (sViews) sViews.value = views;
           const sViewsLbl = document.getElementById("simple-views-val");
@@ -7077,16 +7179,19 @@ Partnerships Lead | ${channel}`;
           const sNiche = document.getElementById("simple-niche-select");
           if (sNiche) sNiche.value = niche;
           const sCountry = document.getElementById("simple-country-select");
-          if (sCountry) sCountry.value = country;
+          if (sCountry) sCountry.value = geo;
 
+          // Sync pro inputs
           const pViews = document.getElementById("views-slider");
           if (pViews) pViews.value = views;
-          const pViewsIn = document.getElementById("views-input");
+          const pViewsIn = document.getElementById("views-number-input");
           if (pViewsIn) pViewsIn.value = views;
           const pNiche = document.getElementById("niche-select");
           if (pNiche) pNiche.value = niche;
-          const pCountry = document.getElementById("country-select");
-          if (pCountry) pCountry.value = country;
+
+          const proRadio = document.querySelector('input[name="geo"][value="' + geo + '"]');
+          if (proRadio) proRadio.checked = true;
+          if (typeof updateGeoCardsUI === 'function') updateGeoCardsUI();
 
           AudioHaptics.playClick(720);
           showToast("Loaded Preset: " + chip.innerText.trim());
