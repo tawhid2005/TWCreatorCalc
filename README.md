@@ -1,7 +1,7 @@
 # TWCreatorCalc — The World's #1 Creator Financial Operating System & Terminal
 
 <p align="center">
-  <a href="https://twcreatorcalc.vercel.app/">
+  <a href="https://twcreatorcalc.xyz/">
     <img src="logo.png" alt="TWCreatorCalc Official Logo" width="128" height="128" style="border-radius: 28px;" />
   </a>
 </p>
@@ -12,9 +12,9 @@
 </p>
 
 <p align="center">
-  <a href="https://twcreatorcalc.vercel.app/"><img src="https://img.shields.io/badge/Status-Live%20Terminal-emerald?style=for-the-badge&logo=vercel" alt="Status"></a>
-  <a href="https://twcreatorcalc.vercel.app/"><img src="https://img.shields.io/badge/Credit%20Rating-AAA%20Prime-indigo?style=for-the-badge" alt="Rating"></a>
-  <a href="https://twcreatorcalc.vercel.app/"><img src="https://img.shields.io/badge/Algorithm-2026%2F2027%20Calibrated-cyan?style=for-the-badge" alt="Algorithm"></a>
+  <a href="https://twcreatorcalc.xyz/"><img src="https://img.shields.io/badge/Status-Live%20Terminal-emerald?style=for-the-badge&logo=vercel" alt="Status"></a>
+  <a href="https://twcreatorcalc.xyz/"><img src="https://img.shields.io/badge/Credit%20Rating-AAA%20Prime-indigo?style=for-the-badge" alt="Rating"></a>
+  <a href="https://twcreatorcalc.xyz/"><img src="https://img.shields.io/badge/Algorithm-2026%2F2027%20Calibrated-cyan?style=for-the-badge" alt="Algorithm"></a>
   <a href="https://github.com/tawhid2005/TWCreatorCalc"><img src="https://img.shields.io/badge/Maintained%20by-TW%20Digital%20Studio-8b5cf6?style=for-the-badge" alt="Maintainer"></a>
 </p>
 
@@ -88,4 +88,4 @@ TWCreatorCalc/
 
 - **Founder & Lead Engineer**: [Tawhid](https://github.com/tawhid2005)
 - **Studio**: **TW Digital Studio**
-- **Deployment**: [Vercel](https://twcreatorcalc.vercel.app/)
+- **Deployment**: [Vercel](https://twcreatorcalc.xyz/)

@@ -1,6 +1,6 @@
 # ==============================================================================
 # TWCreatorCalc — Institutional Creator Financial Operating System & Terminal
-# https://twcreatorcalc.vercel.app/
+# https://twcreatorcalc.xyz/
 # Clean Robots.txt Optimized for Googlebot, Bingbot & AI Search Generative Engines
 # ==============================================================================
 
@@ -51,5 +51,5 @@ User-agent: WhatsApp
 Allow: /
 
 # Host & Sitemap Directives
-Host: https://twcreatorcalc.vercel.app
-Sitemap: https://twcreatorcalc.vercel.app/sitemap.xml
+Host: https://twcreatorcalc.xyz
+Sitemap: https://twcreatorcalc.xyz/sitemap.xml
