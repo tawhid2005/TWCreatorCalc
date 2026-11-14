@@ -715,11 +715,48 @@
       <!-- Brand Logo & Credit Rating Badge -->
       <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
         <a href="#home" class="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl p-[1.5px] bg-gradient-to-tr from-emerald-500 via-indigo-600 to-purple-600 shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-105 transition duration-300 ring-1 ring-white/20 shrink-0 overflow-hidden flex items-center justify-center cursor-pointer group" title="TWCreatorCalc Home">
-          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-full h-full object-cover rounded-[10px]" onerror="this.onerror=null; this.src='logo.svg';">
+          <svg class="w-full h-full rounded-[10px]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hdrBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0f172a" />
+                <stop offset="50%" stop-color="#090d16" />
+                <stop offset="100%" stop-color="#020408" />
+              </linearGradient>
+              <linearGradient id="hdrRimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#10b981" />
+                <stop offset="30%" stop-color="#06b6d4" />
+                <stop offset="70%" stop-color="#6366f1" />
+                <stop offset="100%" stop-color="#8b5cf6" />
+              </linearGradient>
+              <linearGradient id="hdrGlassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
+                <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
+              </linearGradient>
+              <linearGradient id="hdrTGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#c7d2fe" />
+                <stop offset="30%" stop-color="#818cf8" />
+                <stop offset="75%" stop-color="#6366f1" />
+                <stop offset="100%" stop-color="#4338ca" />
+              </linearGradient>
+              <linearGradient id="hdrWGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#047857" />
+                <stop offset="35%" stop-color="#10b981" />
+                <stop offset="75%" stop-color="#34d399" />
+                <stop offset="100%" stop-color="#6ee7b7" />
+              </linearGradient>
+            </defs>
+            <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#hdrBgGrad)" stroke="url(#hdrRimGrad)" stroke-width="8" />
+            <path d="M 28 136 C 28 76 76 28 136 28 L 376 28 C 436 28 484 76 484 136 L 484 205 C 330 175 180 185 28 255 Z" fill="url(#hdrGlassGrad)" />
+            <g transform="translate(6, 0)">
+              <path d="M 68 152 L 208 152 C 216 152 222 158 222 166 L 222 176 C 222 184 216 190 208 190 L 158 190 L 158 356 C 158 366 150 374 140 374 L 118 374 C 108 374 100 366 100 356 L 100 190 L 68 190 C 60 190 54 184 54 176 L 54 166 C 54 158 60 152 68 152 Z" fill="url(#hdrTGrad)" />
+              <polyline points="190,204 232,358 274,264 322,358 411,182" fill="none" stroke="url(#hdrWGrad)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round" />
+              <polygon points="434,136 444,210 411,182 374,180" fill="url(#hdrWGrad)" />
+            </g>
+          </svg>
         </a>
         <div>
           <div class="flex items-center gap-1.5 sm:gap-2">
-            <span class="font-display font-extrabold text-lg sm:text-xl tracking-tight text-white">Creator<span class="text-indigo-400">Calc</span></span>
+            <span class="font-display font-extrabold text-lg sm:text-xl tracking-tight text-white"><span class="text-indigo-400">TW</span>Creator<span class="text-indigo-400">Calc</span></span>
             <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 rounded-full bg-gradient-to-r from-emerald-500/20 via-indigo-500/20 to-purple-500/20 text-emerald-300 border border-emerald-500/40">PRO</span>
             <span id="header-credit-rating" class="hidden md:inline text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 font-bold">AAA Prime</span>
           </div>
@@ -1044,7 +1081,7 @@
     <div class="hidden print-executive-header">
       <div class="flex items-center justify-between border-b-2 border-slate-900 pb-3 mb-4 font-sans">
         <div class="flex items-center gap-3">
-          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-10 h-10 rounded-xl object-cover ring-1 ring-slate-800" onerror="this.onerror=null; this.src='logo.svg';">
+          <img src="/logo.svg" alt="TWCreatorCalc Logo" class="w-10 h-10 rounded-xl object-contain ring-1 ring-slate-800" onerror="this.onerror=null; this.src='/logo.png';">
           <div>
             <div class="text-lg font-black text-slate-900 font-display">TWCreatorCalc PRO — Creator Financial Operating System</div>
             <p class="text-xs text-slate-600 font-mono">Official Executive Creator Financial &amp; Tax Audit Report</p>
@@ -4920,7 +4957,7 @@
       <!-- Bottom Bar -->
       <div class="border-t border-slate-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-2.5">
-          <img src="logo.png" alt="TWCreatorCalc Logo" class="w-6 h-6 rounded-md ring-1 ring-white/10 shadow-md object-cover" onerror="this.onerror=null; this.src='logo.svg';">
+          <img src="/logo.svg" alt="TWCreatorCalc Logo" class="w-6 h-6 rounded-md ring-1 ring-white/10 shadow-md object-contain" onerror="this.onerror=null; this.src='/logo.png';">
           <span class="font-bold text-slate-200">TWCreatorCalc</span>
           <span>• The World's #1 Creator Financial Operating System &amp; Terminal</span>
         </div>
