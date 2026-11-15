@@ -1,0 +1,393 @@
+[
+  {
+    "file": "index.html",
+    "route": "/",
+    "canonical": "https://twcreatorcalc.xyz/",
+    "title": {
+      "text": "YouTube Money Calculator (2026) — Net Take-Home Earnings & RPM Terminal | TWCreatorCalc",
+      "length": 87
+    },
+    "description": {
+      "text": "World's #1 audited YouTube Money Calculator. Calculate real net take-home earnings after Google's 45% revenue cut, RPM by niche & country, and S-Corp tax write-offs. 100% free.",
+      "length": 176
+    },
+    "keywordsCount": 10,
+    "topKeywords": [
+      "twcreatorcalc",
+      "twcreatorcalc.xyz",
+      "creatorcalc",
+      "youtube money calculator",
+      "youtube earnings calculator",
+      "how much does youtube pay",
+      "youtube money per view",
+      "youtube cpm calculator 2026"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8853,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "youtube-tools.html",
+    "route": "/youtube-tools",
+    "canonical": "https://twcreatorcalc.xyz/youtube-tools",
+    "title": {
+      "text": "YouTube Category Finder, Tag Extractor & Video SEO Score Checker (2026) | TWCreatorCalc",
+      "length": 87
+    },
+    "description": {
+      "text": "Free online YouTube video inspector. Find hidden YouTube upload category, extract all video tags & keywords, calculate video SEO health score (0-100), and download 1080p HD thumbnails by URL.",
+      "length": 191
+    },
+    "keywordsCount": 9,
+    "topKeywords": [
+      "youtube category finder",
+      "find youtube video category from link",
+      "youtube tag extractor",
+      "extract youtube tags by url",
+      "youtube video seo checker",
+      "download youtube thumbnail hd 1080p",
+      "viral youtube title generator",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8853,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "sponsorship.html",
+    "route": "/sponsorship",
+    "canonical": "https://twcreatorcalc.xyz/sponsorship",
+    "title": {
+      "text": "YouTube Sponsorship Rate Card Calculator (2026) — Brand Deal Pricing & Contracts | TWCreatorCalc",
+      "length": 96
+    },
+    "description": {
+      "text": "Calculate exact brand deal sponsorship rates for YouTube videos and Shorts. Price 60-second dedicated integrations, digital usage rights, exclusivity, and generate legal creator agreements.",
+      "length": 189
+    },
+    "keywordsCount": 7,
+    "topKeywords": [
+      "youtube sponsorship calculator",
+      "how much to charge for youtube sponsorship",
+      "brand deal rate card calculator",
+      "sponsorship cpm by niche 2026",
+      "influencer contract template",
+      "media kit generator",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8854,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "tax.html",
+    "route": "/tax",
+    "canonical": "https://twcreatorcalc.xyz/tax",
+    "title": {
+      "text": "Creator S-Corp vs LLC Tax Calculator (2026) — 15.3% Self-Employment Tax Shield | TWCreatorCalc",
+      "length": 94
+    },
+    "description": {
+      "text": "Calculate how much you save on creator taxes by electing S-Corp status over Sole Proprietorship/LLC. Compute 15.3% FICA payroll tax write-offs and reasonable W-2 salary distributions.",
+      "length": 183
+    },
+    "keywordsCount": 7,
+    "topKeywords": [
+      "youtuber taxes",
+      "creator scorp vs llc calculator",
+      "self employment tax savings calculator",
+      "how to save taxes as a youtuber",
+      "creator tax write offs",
+      "15.3 fica tax shield",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8854,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "growth.html",
+    "route": "/growth",
+    "canonical": "https://twcreatorcalc.xyz/growth",
+    "title": {
+      "text": "YouTube Channel Valuation & 2027 Algorithm Auditor (24x-36x Multiple) | TWCreatorCalc",
+      "length": 85
+    },
+    "description": {
+      "text": "Estimate your YouTube channel acquisition value at 24x to 36x monthly net cash flow. Audit eligibility progression for 8,000 watch hours, Shorts views, and generate M&A term sheets.",
+      "length": 181
+    },
+    "keywordsCount": 6,
+    "topKeywords": [
+      "youtube channel valuation calculator",
+      "how much is my youtube channel worth",
+      "sell youtube channel flippa",
+      "2027 youtube partner program requirements",
+      "channel acquisition multiple",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8851,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "analytics.html",
+    "route": "/analytics",
+    "canonical": "https://twcreatorcalc.xyz/analytics",
+    "title": {
+      "text": "YouTube Shorts vs Long-Form Revenue Calculator (15x Reality Simulator) | TWCreatorCalc",
+      "length": 86
+    },
+    "description": {
+      "text": "Real-world revenue comparison between pooled YouTube Shorts RPM ($0.04-$0.09) and 8+ minute mid-roll long-form AdSense cash flows. Simulate 12-month creator income runway.",
+      "length": 171
+    },
+    "keywordsCount": 6,
+    "topKeywords": [
+      "shorts vs long form revenue calculator",
+      "youtube shorts rpm calculator",
+      "how much does youtube pay for shorts",
+      "1 million shorts views payout",
+      "creator cash flow simulator",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8851,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "academy.html",
+    "route": "/academy",
+    "canonical": "https://twcreatorcalc.xyz/academy",
+    "title": {
+      "text": "Creator Monetization Academy — Brand Deal Negotiation Scripts & CPA Guides | TWCreatorCalc",
+      "length": 90
+    },
+    "description": {
+      "text": "Word-for-word brand negotiation email scripts, anti-scam sponsor security checklists, CPA-approved creator tax deduction glossaries, and financial terminal operating guide.",
+      "length": 172
+    },
+    "keywordsCount": 7,
+    "topKeywords": [
+      "brand deal negotiation scripts",
+      "how to negotiate with brands email template",
+      "creator academy",
+      "youtuber cpa tax guide",
+      "sponsor contract clauses",
+      "avoid brand deal scams",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8853,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "file": "benchmarks.html",
+    "route": "/benchmarks",
+    "canonical": "https://twcreatorcalc.xyz/benchmarks",
+    "title": {
+      "text": "2026 YouTube CPM & RPM Benchmarks Directory (By Niche & Country) | TWCreatorCalc",
+      "length": 80
+    },
+    "description": {
+      "text": "Complete audited 2026 directory of YouTube CPM, RPM, and Sponsorship rates across 20+ niches (Finance, SaaS, Tech, Gaming, Vlog) and global audience geographic tiers (Tier 1 to Tier 3).",
+      "length": 185
+    },
+    "keywordsCount": 6,
+    "topKeywords": [
+      "youtube cpm by niche 2026",
+      "highest paying youtube niches",
+      "youtube rpm benchmarks",
+      "tier 1 country youtube rpm",
+      "youtube money per 1000 views directory",
+      "twcreatorcalc"
+    ],
+    "h1": [
+      "YouTube &amp; Creator True Net Income, Retention &amp; Wealth Command Center",
+      "YouTube Category Finder, Tag Extractor &amp; Video SEO Score"
+    ],
+    "h2Count": 21,
+    "h2List": [
+      "Channel &amp; Audience Configuration",
+      "How Does YouTube Calculate Money Per View in 2026?",
+      "Sponsorship Pricing, Rights Management &amp; Legal Shield",
+      "How to Price YouTube Sponsorships &amp; Brand Deals in 2026",
+      "S-Corp Tax Optimization, IRS Withholding &amp; Capital Hub",
+      "YouTuber Tax Guide: S-Corp vs LLC &amp; The 15.3% Self-Employment Tax Shield",
+      "Algorithm Velocity, Premium Pools &amp; Asset Exit Valuation",
+      "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+      "Visual Revenue Modeling &amp; S&amp;P 500 Wealth Forecast",
+      "YouTube Shorts vs Long-Form Video: Revenue &amp; RPM Reality Check (2026)"
+    ],
+    "h3Count": 36,
+    "wordCount": 8853,
+    "schemas": [
+      "WebApplication",
+      "Organization",
+      "FAQPage",
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  }
+]
