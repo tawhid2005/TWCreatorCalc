@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube RPM Calculator | Earnings and Views Needed</title>
+  <meta name="description" content="Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.">
+  <link rel="canonical" href="https://www.twcreatorcalc.xyz/youtube-rpm-calculator">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TWCreatorCalc">
+  <meta property="og:title" content="YouTube RPM Calculator | Earnings and Views Needed">
+  <meta property="og:description" content="Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.">
+  <meta property="og:url" content="https://www.twcreatorcalc.xyz/youtube-rpm-calculator">
+  <meta property="og:image" content="https://www.twcreatorcalc.xyz/og-image.png">
+  <meta property="og:image:alt" content="TWCreatorCalc creator tools">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="YouTube RPM Calculator | Earnings and Views Needed">
+  <meta name="twitter:description" content="Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.">
+  <meta name="twitter:image" content="https://www.twcreatorcalc.xyz/og-image.png">
+  <meta name="twitter:image:alt" content="TWCreatorCalc creator tools">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://www.twcreatorcalc.xyz/youtube-rpm-calculator#tool",
+        "url": "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+        "name": "YouTube RPM Calculator",
+        "operatingSystem": "Any",
+        "offers": {"@type": "Offer", "price": 0, "priceCurrency": "USD"},
+        "publisher": {"@type": "Organization", "@id": "https://www.twcreatorcalc.xyz/#organization", "name": "TWCreatorCalc", "url": "https://www.twcreatorcalc.xyz/"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "TWCreatorCalc", "item": "https://www.twcreatorcalc.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "YouTube RPM Calculator", "item": "https://www.twcreatorcalc.xyz/youtube-rpm-calculator"}
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.6 system-ui, sans-serif; background: #090d16; color: #e2e8f0; }
+    body { max-width: 54rem; margin: auto; padding: 1.5rem; }
+    a { color: #a5b4fc; text-underline-offset: .2rem; }
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; padding-bottom: 1rem; border-bottom: 1px solid #334155; }
+    header a, header nav { display: inline-flex; align-items: center; gap: .5rem; }
+    main, footer { margin-block: 2rem; }
+    h1, h2 { color: #f8fafc; line-height: 1.15; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); margin: 0; }
+    section { margin-block: 2rem; }
+    .forms { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+    form { padding: 1rem; background: #111827; border: 1px solid #334155; border-radius: .8rem; }
+    form h2 { font-size: 1.12rem; margin: 0 0 1rem; }
+    label, input, output { display: block; }
+    input { box-sizing: border-box; width: 100%; margin: .25rem 0 .75rem; padding: .5rem; font: inherit; border: 1px solid #64748b; border-radius: .35rem; background: #090d16; }
+    button { border: 0; border-radius: .4rem; padding: .45rem .8rem; background: #a5b4fc; color: #111827; font: inherit; font-weight: 700; cursor: pointer; }
+    output { margin-top: .75rem; color: #6ee7b7; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; }
+    caption, th, td { text-align: left; }
+    th, td { padding: .45rem; border-bottom: 1px solid #334155; }
+  </style>
+  <script src="/youtube-rpm-calculator.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="/logo.svg" width="32" height="32" alt="">TWCreatorCalc</a>
+    <nav aria-label="Breadcrumb"><span aria-hidden="true">/</span> <span aria-current="page">YouTube RPM Calculator</span></nav>
+  </header>
+  <main>
+    <h1>YouTube RPM Calculator</h1>
+    <p>Use your own YouTube Studio numbers to calculate revenue per 1,000 views, estimate future earnings, or find the views needed for a revenue goal.</p>
+    <noscript><p>Enable JavaScript to use the calculator, or use the formulas below.</p></noscript>
+    <section class="forms" aria-label="YouTube RPM calculations">
+      <form data-calculation="rpm">
+        <h2>Find your RPM</h2>
+        <label for="actual-revenue">YouTube revenue (USD)</label>
+        <input id="actual-revenue" name="revenue" type="number" min="0" step="any" value="400" required>
+        <label for="actual-views">Views in the same period</label>
+        <input id="actual-views" name="views" type="number" min="1" step="1" value="100000" required>
+        <button>Calculate</button>
+        <output for="actual-revenue actual-views">$4.00 per 1,000 views</output>
+      </form>
+      <form data-calculation="revenue">
+        <h2>Estimate earnings by views</h2>
+        <label for="forecast-views">Expected views</label>
+        <input id="forecast-views" name="views" type="number" min="0" step="1" value="100000" required>
+        <label for="forecast-rpm">Creator RPM (USD)</label>
+        <input id="forecast-rpm" name="rpm" type="number" min="0" step="any" value="4" required>
+        <button>Calculate</button>
+        <output for="forecast-views forecast-rpm">$400.00 estimated revenue</output>
+      </form>
+      <form data-calculation="views">
+        <h2>Find views for a revenue goal</h2>
+        <label for="target-revenue">Revenue goal (USD)</label>
+        <input id="target-revenue" name="revenue" type="number" min="0" step="any" value="1000" required>
+        <label for="target-rpm">Creator RPM (USD)</label>
+        <input id="target-rpm" name="rpm" type="number" min="0" step="any" value="4" required>
+        <button>Calculate</button>
+        <output for="target-revenue target-rpm">250,000 views needed</output>
+      </form>
+    </section>
+    <section>
+      <h2>How do you calculate YouTube RPM?</h2>
+      <p>Divide YouTube revenue by views for the same period and multiply by 1,000. For example, $400 from 100,000 views gives $4 RPM. To forecast revenue, multiply expected views by RPM and divide by 1,000. To find the views needed for a target, divide your target by RPM, multiply by 1,000 and round up.</p>
+      <p>Studio RPM already reflects YouTube’s revenue share. It can include ads, YouTube Premium, memberships and certain fan payments. Use engaged views for Shorts RPM, and keep Shorts and watch-page video inputs separate. <a href="https://support.google.com/youtube/answer/9314357">YouTube Help on RPM and CPM</a></p>
+      <table>
+        <caption>Example revenues at three illustrative RPMs</caption>
+        <thead><tr><th scope="col">Views</th><th scope="col">$0.06 RPM</th><th scope="col">$2 RPM</th><th scope="col">$4 RPM</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">1,000</th><td>$0.06</td><td>$2</td><td>$4</td></tr>
+          <tr><th scope="row">100,000</th><td>$6</td><td>$200</td><td>$400</td></tr>
+          <tr><th scope="row">1,000,000</th><td>$60</td><td>$2,000</td><td>$4,000</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Is YouTube RPM the same as CPM?</h2>
+      <p>CPM is the advertiser’s cost per 1,000 ad impressions. RPM measures creator revenue per 1,000 views after revenue sharing, including views that did not show an ad. Use the same format and reporting period for your inputs. Budget business expenses, taxes and brand deals separately.</p>
+    </section>
+  </main>
+  <footer>
+    <nav aria-label="Related creator tools">
+      <ul>
+        <li><a href="/">YouTube Money Calculator</a></li>
+        <li><a href="/analytics">YouTube Shorts vs Long-Form Revenue Calculator</a></li>
+        <li><a href="/benchmarks">YouTube CPM and RPM by Niche</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

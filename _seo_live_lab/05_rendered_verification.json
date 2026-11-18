@@ -1,0 +1,202 @@
+{
+  "scope": "Headless Chrome against a local HTTP server simulating clean URLs and configured redirects",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "YouTube Money Calculator | Estimate Earnings by Views",
+      "description": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+      "canonical": "https://www.twcreatorcalc.xyz/",
+      "headings": [
+        "YouTube Money Calculator"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Money Calculator | Estimate Earnings by Views",
+      "ogDescription": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/",
+      "twitterTitle": "YouTube Money Calculator | Estimate Earnings by Views",
+      "twitterDescription": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay."
+    },
+    {
+      "route": "/youtube-tools",
+      "status": 200,
+      "title": "YouTube Category Finder & Video Tag Extractor",
+      "description": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+      "canonical": "https://www.twcreatorcalc.xyz/youtube-tools",
+      "headings": [
+        "YouTube Category Finder and Tag Extractor"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Category Finder & Video Tag Extractor",
+      "ogDescription": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/youtube-tools",
+      "twitterTitle": "YouTube Category Finder & Video Tag Extractor",
+      "twitterDescription": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks."
+    },
+    {
+      "route": "/sponsorship",
+      "status": 200,
+      "title": "YouTube Sponsorship Rate Calculator & Rate Card",
+      "description": "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+      "canonical": "https://www.twcreatorcalc.xyz/sponsorship",
+      "headings": [
+        "YouTube Sponsorship Rate Calculator"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Sponsorship Rate Calculator & Rate Card",
+      "ogDescription": "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/sponsorship",
+      "twitterTitle": "YouTube Sponsorship Rate Calculator & Rate Card",
+      "twitterDescription": "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity."
+    },
+    {
+      "route": "/tax",
+      "status": 200,
+      "title": "Creator LLC vs S Corp Tax Calculator | US Estimates",
+      "description": "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+      "canonical": "https://www.twcreatorcalc.xyz/tax",
+      "headings": [
+        "Creator LLC vs S Corp Tax Calculator"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "Creator LLC vs S Corp Tax Calculator | US Estimates",
+      "ogDescription": "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/tax",
+      "twitterTitle": "Creator LLC vs S Corp Tax Calculator | US Estimates",
+      "twitterDescription": "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation."
+    },
+    {
+      "route": "/growth",
+      "status": 200,
+      "title": "YouTube Channel Valuation & Monetization Requirements",
+      "description": "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+      "canonical": "https://www.twcreatorcalc.xyz/growth",
+      "headings": [
+        "YouTube Channel Valuation and Monetization"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Channel Valuation & Monetization Requirements",
+      "ogDescription": "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/growth",
+      "twitterTitle": "YouTube Channel Valuation & Monetization Requirements",
+      "twitterDescription": "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold."
+    },
+    {
+      "route": "/analytics",
+      "status": 200,
+      "title": "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+      "description": "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+      "canonical": "https://www.twcreatorcalc.xyz/analytics",
+      "headings": [
+        "YouTube Shorts vs Long-Form Revenue Calculator"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+      "ogDescription": "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/analytics",
+      "twitterTitle": "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+      "twitterDescription": "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections."
+    },
+    {
+      "route": "/academy",
+      "status": 200,
+      "title": "YouTube Creator Monetization Guide & Sponsorship Tips",
+      "description": "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+      "canonical": "https://www.twcreatorcalc.xyz/academy",
+      "headings": [
+        "YouTube Creator Monetization Guide"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube Creator Monetization Guide & Sponsorship Tips",
+      "ogDescription": "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/academy",
+      "twitterTitle": "YouTube Creator Monetization Guide & Sponsorship Tips",
+      "twitterDescription": "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business."
+    },
+    {
+      "route": "/benchmarks",
+      "status": 200,
+      "title": "YouTube CPM & RPM by Niche | Benchmark Scenarios",
+      "description": "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+      "canonical": "https://www.twcreatorcalc.xyz/benchmarks",
+      "headings": [
+        "YouTube CPM and RPM by Niche"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube CPM & RPM by Niche | Benchmark Scenarios",
+      "ogDescription": "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/benchmarks",
+      "twitterTitle": "YouTube CPM & RPM by Niche | Benchmark Scenarios",
+      "twitterDescription": "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel."
+    },
+    {
+      "route": "/youtube-rpm-calculator",
+      "status": 200,
+      "title": "YouTube RPM Calculator | Earnings and Views Needed",
+      "description": "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.",
+      "canonical": "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+      "headings": [
+        "YouTube RPM Calculator"
+      ],
+      "schemaCount": 1,
+      "ogTitle": "YouTube RPM Calculator | Earnings and Views Needed",
+      "ogDescription": "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.",
+      "ogUrl": "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+      "twitterTitle": "YouTube RPM Calculator | Earnings and Views Needed",
+      "twitterDescription": "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target."
+    }
+  ],
+  "interactions": {
+    "redirects": {
+      "/seo-hub": "/benchmarks",
+      "/youtube-tools.html": "/youtube-tools",
+      "/youtube-rpm-calculator.html": "/youtube-rpm-calculator"
+    },
+    "rpmCalculator": [
+      "$0.06 per 1,000 views",
+      "$500.00 estimated revenue",
+      "334 views needed",
+      "Enter an RPM above zero to reach a positive goal.",
+      "0 views needed"
+    ],
+    "suiteNavigation": {
+      "videoSuite": {
+        "title": "YouTube Category Finder & Video Tag Extractor",
+        "description": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+        "canonical": "https://www.twcreatorcalc.xyz/youtube-tools",
+        "headings": [
+          "YouTube Category Finder and Tag Extractor"
+        ],
+        "schemaCount": 0,
+        "ogTitle": "YouTube Category Finder & Video Tag Extractor",
+        "ogDescription": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+        "ogUrl": "https://www.twcreatorcalc.xyz/youtube-tools",
+        "twitterTitle": "YouTube Category Finder & Video Tag Extractor",
+        "twitterDescription": "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks."
+      },
+      "home": {
+        "title": "YouTube Money Calculator | Estimate Earnings by Views",
+        "description": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+        "canonical": "https://www.twcreatorcalc.xyz/",
+        "headings": [
+          "YouTube Money Calculator"
+        ],
+        "schemaCount": 1,
+        "ogTitle": "YouTube Money Calculator | Estimate Earnings by Views",
+        "ogDescription": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+        "ogUrl": "https://www.twcreatorcalc.xyz/",
+        "twitterTitle": "YouTube Money Calculator | Estimate Earnings by Views",
+        "twitterDescription": "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay."
+      }
+    },
+    "watchHourThreshold": [
+      "Watch-hour target in progress",
+      "Watch-hour target reached"
+    ],
+    "rpmMobile": {
+      "width": 390,
+      "contentWidth": 390,
+      "formCount": 3
+    }
+  }
+}

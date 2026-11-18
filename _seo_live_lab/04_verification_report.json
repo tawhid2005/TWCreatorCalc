@@ -1,0 +1,1411 @@
+﻿{
+    "source":  "Local HTML source",
+    "scoreScope":  "Ten equally weighted markup checks. This is not a ranking, CTR, or content-quality score.",
+    "scope":  "Eight application routes and any RPM calculator route; verification token and alias are excluded from indexing",
+    "audience":  "YouTube creators researching revenue, sponsorships, public video metadata, growth and US creator taxes",
+    "seedTopics":  [
+                       "YouTube money calculator",
+                       "YouTube category finder",
+                       "YouTube sponsorship rate",
+                       "Shorts RPM",
+                       "YouTube monetization requirements"
+                   ],
+    "siteIssues":  [
+
+                   ],
+    "pages":  [
+                  {
+                      "route":  "/",
+                      "title":  "YouTube Money Calculator | Estimate Earnings by Views",
+                      "canonical":  "https://www.twcreatorcalc.xyz/",
+                      "meta":  {
+                                   "description":  "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Money Calculator | Estimate Earnings by Views",
+                                   "og:description":  "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Money Calculator | Estimate Earnings by Views",
+                                   "twitter:description":  "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Money Calculator",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Instant Creator Earnings \u0026 Rate Estimator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Reverse Creator Income Goal Engine",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Channel \u0026 Audience Configuration",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Explore Dedicated Creator Suites \u0026 Growth Terminals",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Sponsorship \u0026 Deal Hub",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Tax, S-Corp \u0026 Capital Hub",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Channel Growth \u0026 Growth",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Visual Intelligence \u0026 Wealth",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Operating Academy \u0026 Guides",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Programmatic SEO Directory",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "How Does YouTube Calculate Money Per View in 2026?",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "CPM vs. RPM Difference",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "The 45% Platform Cut",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Monetized Playbacks Ratio",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How Much Does YouTube Pay for 1K, 100K, and 1 Million Views?",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How much does YouTube pay for 100,000 views?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  1238,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#page",
+                                                            "name":  "YouTube Money Calculator | Estimate Earnings by Views",
+                                                            "description":  "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#tool",
+                                                            "name":  "YouTube Money Calculator",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "description":  "Estimate YouTube income from monthly views, niche and audience. Explore ad revenue, sponsorship income, production costs and projected take-home pay.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/youtube-tools",
+                      "title":  "YouTube Category Finder \u0026 Video Tag Extractor",
+                      "canonical":  "https://www.twcreatorcalc.xyz/youtube-tools",
+                      "meta":  {
+                                   "description":  "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Category Finder \u0026 Video Tag Extractor",
+                                   "og:description":  "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/youtube-tools",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Category Finder \u0026 Video Tag Extractor",
+                                   "twitter:description":  "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Category Finder and Tag Extractor",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "YouTube Deep Video Inspector",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Video Title Will Appear Here",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Detailed Video SEO Audit Breakdown",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Complete YouTube Creator \u0026 SEO Tool Suite",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "YouTube Tag Generator \u0026 Keyword Expander",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Viral YouTube Title Analyzer \u0026 CTR Grader",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "SEO Description \u0026 Timestamps Builder",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Shorts \u0026 Video Hashtag Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Responsive 16:9 Embed Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Feed \u0026 Search Result CTR Previewer",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Your Video Title Goes Here in YouTube Search Results Feed",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YouTube Category RPM Directory \u0026 Monetization Matrix",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions: YouTube Category, Tags \u0026 SEO",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How can I find the category and tags of a YouTube video?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  985,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/youtube-tools#page",
+                                                            "name":  "YouTube Category Finder \u0026 Video Tag Extractor",
+                                                            "description":  "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/youtube-tools",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/youtube-tools#tool",
+                                                            "name":  "YouTube Category Finder and Tag Extractor",
+                                                            "url":  "https://www.twcreatorcalc.xyz/youtube-tools",
+                                                            "description":  "Paste a public YouTube video URL to check its category and available tags, preview thumbnails and review title and description checks.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/youtube-tools#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Category Finder and Tag Extractor",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/youtube-tools"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/sponsorship",
+                      "title":  "YouTube Sponsorship Rate Calculator \u0026 Rate Card",
+                      "canonical":  "https://www.twcreatorcalc.xyz/sponsorship",
+                      "meta":  {
+                                   "description":  "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Sponsorship Rate Calculator \u0026 Rate Card",
+                                   "og:description":  "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/sponsorship",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Sponsorship Rate Calculator \u0026 Rate Card",
+                                   "twitter:description":  "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Sponsorship Rate Calculator",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Contract Usage Rights License",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Sponsorship Cold Pitch Email Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How to Price YouTube Sponsorships \u0026 Brand Deals in 2026",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "2026 YouTube Sponsorship CPM Benchmarks by Niche (Per 1,000 Views)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Deliverable Type Multipliers",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Commercial Usage Rights Surcharges",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About YouTube Sponsorships",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How much should I charge for a YouTube sponsorship?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  948,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/sponsorship#page",
+                                                            "name":  "YouTube Sponsorship Rate Calculator \u0026 Rate Card",
+                                                            "description":  "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/sponsorship",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/sponsorship#tool",
+                                                            "name":  "YouTube Sponsorship Rate Calculator",
+                                                            "url":  "https://www.twcreatorcalc.xyz/sponsorship",
+                                                            "description":  "Estimate rates for YouTube integrations and dedicated videos. Adjust the quote for expected views, placement, usage rights and exclusivity.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/sponsorship#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Sponsorship Rate Calculator",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/sponsorship"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/tax",
+                      "title":  "Creator LLC vs S Corp Tax Calculator | US Estimates",
+                      "canonical":  "https://www.twcreatorcalc.xyz/tax",
+                      "meta":  {
+                                   "description":  "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "Creator LLC vs S Corp Tax Calculator | US Estimates",
+                                   "og:description":  "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/tax",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "Creator LLC vs S Corp Tax Calculator | US Estimates",
+                                   "twitter:description":  "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "Creator LLC vs S Corp Tax Calculator",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Pillar B: Creator Taxes, Capital Lending \u0026 S-Corp Optimizer",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "S-Corp Tax Savings Optimizer",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Working Capital \u0026 Loan Advance",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Legitimate Tax Write-Offs",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Ad-Blocker Reality Loss",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Multi-Channel Empire Scaler",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "IRS Tax Treaty \u0026 W-8BEN Shield",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Pillar C: Community Memberships, 7 Streams Matrix \u0026 FIRE Plan",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Livestream SuperChats \u0026 Channel Memberships Simulator",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "The 7 Streams Fragility Matrix",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "\"Creator FIRE\" $1M Freedom Timeline",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "YouTuber Tax Guide: S-Corp vs LLC \u0026 The 15.3% Self-Employment Tax Shield",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "100% Legitimate Content Creator Tax Deductions \u0026 Write-Offs",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About YouTuber Taxes",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "What does the LLC vs S corp calculator compare?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  1089,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/tax#page",
+                                                            "name":  "Creator LLC vs S Corp Tax Calculator | US Estimates",
+                                                            "description":  "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/tax",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/tax#tool",
+                                                            "name":  "Creator LLC vs S Corp Tax Calculator",
+                                                            "url":  "https://www.twcreatorcalc.xyz/tax",
+                                                            "description":  "Compare illustrative US self-employment and payroll tax scenarios. Adjust creator profit, salary and costs to model an LLC or S corporation.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/tax#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "Creator LLC vs S Corp Tax Calculator",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/tax"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/growth",
+                      "title":  "YouTube Channel Valuation \u0026 Monetization Requirements",
+                      "canonical":  "https://www.twcreatorcalc.xyz/growth",
+                      "meta":  {
+                                   "description":  "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Channel Valuation \u0026 Monetization Requirements",
+                                   "og:description":  "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/growth",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Channel Valuation \u0026 Monetization Requirements",
+                                   "twitter:description":  "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Channel Valuation and Monetization",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Pillar A: YouTube Channel Growth \u0026 Retention Suite",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YPP Auditor",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Premium Pool Bonus",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Thumbnail CTR Multiplier",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "8+ Min Mid-Roll Booster",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Video Retention (AVD)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Evergreen Catalog Cash Flow",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Pillar D: Growth Multipliers \u0026 Channel Valuation",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Shorts-to-Long Funnel",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "AI Multi-Audio Dubbing",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Multi-Platform Syndication",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Channel Valuation Estimator",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Seasonal CPM Multiplier",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Production Spend \u0026 Break-Even",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About Channel Valuation \u0026 Growth",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How many watch hours do you need to monetize on YouTube?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  740,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/growth#page",
+                                                            "name":  "YouTube Channel Valuation \u0026 Monetization Requirements",
+                                                            "description":  "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/growth",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/growth#tool",
+                                                            "name":  "YouTube Channel Valuation and Monetization",
+                                                            "url":  "https://www.twcreatorcalc.xyz/growth",
+                                                            "description":  "Model an illustrative channel sale price from monthly profit and a valuation multiple. Check the YouTube Partner Program watch-hour threshold.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/growth#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Channel Valuation and Monetization",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/growth"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/analytics",
+                      "title":  "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+                      "canonical":  "https://www.twcreatorcalc.xyz/analytics",
+                      "meta":  {
+                                   "description":  "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+                                   "og:description":  "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/analytics",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+                                   "twitter:description":  "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Shorts vs Long-Form Revenue Calculator",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Visual Intelligence \u0026 Reverse Goal Engines",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Shorts Reality Check: What the exact same views make in Long-Form",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "12-Month Cumulative Cash Flow \u0026 Wealth Accumulation Model",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YouTube Shorts vs Long-Form Video: Revenue \u0026 RPM Reality Check (2026)",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "How Many Views Do You Need to Earn $1,000, $5,000, or $10,000 a Month?",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How do I compare YouTube Shorts and long-form revenue?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  577,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/analytics#page",
+                                                            "name":  "YouTube Shorts Revenue vs Long-Form Earnings Calculator",
+                                                            "description":  "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/analytics",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/analytics#tool",
+                                                            "name":  "YouTube Shorts vs Long-Form Revenue Calculator",
+                                                            "url":  "https://www.twcreatorcalc.xyz/analytics",
+                                                            "description":  "Compare YouTube Shorts and long-form revenue scenarios, test different assumptions and explore monthly and annual earnings projections.",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD",
+                                                                           "@type":  "Offer"
+                                                                       }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/analytics#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Shorts vs Long-Form Revenue Calculator",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/analytics"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/academy",
+                      "title":  "YouTube Creator Monetization Guide \u0026 Sponsorship Tips",
+                      "canonical":  "https://www.twcreatorcalc.xyz/academy",
+                      "meta":  {
+                                   "description":  "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Creator Monetization Guide \u0026 Sponsorship Tips",
+                                   "og:description":  "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/academy",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Creator Monetization Guide \u0026 Sponsorship Tips",
+                                   "twitter:description":  "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Creator Monetization Guide",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Select Platform, Niche \u0026 Views",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Configure Audience Age \u0026 Tax Status",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Activate Advanced Reality Multipliers",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Price Commercial Licensing Rights",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Generate Contracts, Invoices \u0026 Exit Terms",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Why YouTube Studio \"Estimated Revenue\" is a Vanity Metric",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "The TW Mathematical Sponsorship Rate Formulation",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Paid Whitelisting (+35%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Category Exclusivity (+25%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Perpetual Rights (+50%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Brand Scam \u0026 Channel Malware Defense Playbook",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Q1: How is my True Net Income calculated compared to YouTube Studio?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q2: How do I switch between USD ($) and local currencies like Bangladeshi Taka (BDT ৳) or Euro (EUR €)?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q3: Can I export or print my Media Kit, Invoice, and Contract as a PDF?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q4: What is the Channel Exit Valuation \u0026 M\u0026A Multiple?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q5: How does the S-Corp Tax Shield calculate annual tax savings?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "How do you negotiate a YouTube sponsorship?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  1159,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/academy#page",
+                                                            "name":  "YouTube Creator Monetization Guide \u0026 Sponsorship Tips",
+                                                            "description":  "Learn how to read YouTube revenue estimates, build a sponsorship quote and organize income and costs for a creator business.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/academy",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/academy#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Creator Monetization Guide",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/academy"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/benchmarks",
+                      "title":  "YouTube CPM \u0026 RPM by Niche | Benchmark Scenarios",
+                      "canonical":  "https://www.twcreatorcalc.xyz/benchmarks",
+                      "meta":  {
+                                   "description":  "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube CPM \u0026 RPM by Niche | Benchmark Scenarios",
+                                   "og:description":  "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/benchmarks",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube CPM \u0026 RPM by Niche | Benchmark Scenarios",
+                                   "twitter:description":  "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube CPM and RPM by Niche",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Programmatic SEO Engine (10,000+ Pre-Configured Landing Pages)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Top Google Search Target Keywords (Pre-Calibrated Landing URLs)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Payout Matrix by View Milestone \u0026 Top Niches",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Creator Financial FAQ \u0026 Revenue Formulas",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "What is the difference between YouTube CPM and RPM?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  672,
+                      "internalLinkCount":  37,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "logo":  "https://www.twcreatorcalc.xyz/logo.svg"
+                                                        },
+                                                        {
+                                                            "@type":  "WebSite",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/#website",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://www.twcreatorcalc.xyz/",
+                                                            "publisher":  {
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "WebPage",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/benchmarks#page",
+                                                            "name":  "YouTube CPM \u0026 RPM by Niche | Benchmark Scenarios",
+                                                            "description":  "Explore illustrative YouTube CPM and RPM assumptions by niche and audience. Compare scenarios and learn which metric to use for your own channel.",
+                                                            "url":  "https://www.twcreatorcalc.xyz/benchmarks",
+                                                            "isPartOf":  {
+                                                                             "@id":  "https://www.twcreatorcalc.xyz/#website"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/benchmarks#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube CPM and RPM by Niche",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/benchmarks"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/youtube-rpm-calculator",
+                      "title":  "YouTube RPM Calculator | Earnings and Views Needed",
+                      "canonical":  "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+                      "meta":  {
+                                   "description":  "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.",
+                                   "robots":  "index, follow, max-image-preview:large",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube RPM Calculator | Earnings and Views Needed",
+                                   "og:description":  "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.",
+                                   "og:url":  "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+                                   "og:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "og:image:alt":  "TWCreatorCalc creator tools",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:title":  "YouTube RPM Calculator | Earnings and Views Needed",
+                                   "twitter:description":  "Calculate YouTube RPM from revenue and views, estimate earnings with your own RPM, or work out how many views you need for an income target.",
+                                   "twitter:image":  "https://www.twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc creator tools"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube RPM Calculator",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Find your RPM",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Estimate earnings by views",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Find views for a revenue goal",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "How do you calculate YouTube RPM?",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Is YouTube RPM the same as CPM?",
+                                           "level":  2
+                                       }
+                                   ],
+                      "activeMainWords":  279,
+                      "internalLinkCount":  4,
+                      "imageCount":  1,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://www.twcreatorcalc.xyz/youtube-rpm-calculator#tool",
+                                                            "url":  "https://www.twcreatorcalc.xyz/youtube-rpm-calculator",
+                                                            "name":  "YouTube RPM Calculator",
+                                                            "operatingSystem":  "Any",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  0,
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "publisher":  {
+                                                                              "@type":  "Organization",
+                                                                              "@id":  "https://www.twcreatorcalc.xyz/#organization",
+                                                                              "name":  "TWCreatorCalc",
+                                                                              "url":  "https://www.twcreatorcalc.xyz/"
+                                                                          }
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube RPM Calculator",
+                                                                                        "item":  "https://www.twcreatorcalc.xyz/youtube-rpm-calculator"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "technicalScore":  100,
+                      "scorecard":  {
+                                        "titlePresent":  true,
+                                        "descriptionPresent":  true,
+                                        "oneActiveH1":  true,
+                                        "canonicalMatchesServingHost":  true,
+                                        "socialCopyMatches":  true,
+                                        "socialImagesPresent":  true,
+                                        "jsonLdPresentAndParseable":  true,
+                                        "noBrokenRootRelativeLinks":  true,
+                                        "imageAltAttributesPresent":  true,
+                                        "canonicalInSitemapAndIndexable":  true
+                                    },
+                      "issues":  [
+
+                                 ]
+                  }
+              ]
+}

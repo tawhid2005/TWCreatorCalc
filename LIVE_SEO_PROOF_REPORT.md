@@ -1,4 +1,6 @@
 # LIVE TECHNICAL & SEMANTIC SEO AUDIT PROOF REPORT
+
+> Historical report. See [the November 18 experiment report](SEO_MASTER_PROOF_REPORT.md) for the production baseline, active-pane counts and browser verification.
 **Domain Target:** `https://twcreatorcalc.xyz`  
 **Audit Date:** November 16, 2026  
 **Auditor:** Technical & Semantic SEO Engineering Agent (Google Antigravity)  

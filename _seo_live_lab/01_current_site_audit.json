@@ -1,0 +1,1537 @@
+﻿{
+    "source":  "Local HTML source",
+    "scope":  "Eight application routes and any RPM calculator route; verification token and alias are excluded from indexing",
+    "audience":  "YouTube creators researching revenue, sponsorships, public video metadata, growth and US creator taxes",
+    "seedTopics":  [
+                       "YouTube money calculator",
+                       "YouTube category finder",
+                       "YouTube sponsorship rate",
+                       "Shorts RPM",
+                       "YouTube monetization requirements"
+                   ],
+    "siteIssues":  [
+
+                   ],
+    "pages":  [
+                  {
+                      "route":  "/",
+                      "title":  "YouTube Money Calculator 2026 — Net Take-Home Pay \u0026 RPM",
+                      "canonical":  "https://twcreatorcalc.xyz/",
+                      "meta":  {
+                                   "description":  "Calculate exact YouTube take-home pay after Google\u0027s 45% cut, taxes, and production costs. Audited RPM benchmarks for 20+ niches. 100% free.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Money Calculator 2026 — Net Take-Home Pay \u0026 RPM",
+                                   "og:description":  "Calculate exact YouTube take-home pay after Google\u0027s 45% cut, taxes, and production costs. Audited RPM benchmarks for 20+ niches. 100% free.",
+                                   "og:url":  "https://twcreatorcalc.xyz/",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Money Calculator 2026 — Net Take-Home Pay \u0026 RPM",
+                                   "twitter:description":  "Calculate exact YouTube take-home pay after Google\u0027s 45% cut, taxes, and production costs. Audited RPM benchmarks for 20+ niches. 100% free.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube \u0026 Creator True Net Income , Retention \u0026 Wealth Command Center",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Instant Creator Earnings \u0026 Rate Estimator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Reverse Creator Income Goal Engine",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Channel \u0026 Audience Configuration",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Explore Dedicated Creator Suites \u0026 Growth Terminals",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Sponsorship \u0026 Deal Hub",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Tax, S-Corp \u0026 Capital Hub",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "2027 Algorithm \u0026 Growth",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Visual Intelligence \u0026 Wealth",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Operating Academy \u0026 Guides",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Programmatic SEO Directory",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "How Does YouTube Calculate Money Per View in 2026?",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "CPM vs. RPM Difference",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "The 45% Platform Cut",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Monetized Playbacks Ratio",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How Much Does YouTube Pay for 1K, 100K, and 1 Million Views?",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  1188,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/#webapp",
+                                                            "name":  "YouTube Money Calculator 2026",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "YouTube \u0026 Creator True Net Income \u0026 Wealth Command Center"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Calculate exact YouTube take-home pay after Google\u0027s 45% cut, taxes, and production costs. Audited RPM benchmarks for 20+ niches. 100% free.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much does YouTube pay for 1,000 views?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "YouTube pays creators between $1.50 and $25.00+ per 1,000 views based on RPM. Entertainment and gaming channels earn $1.50 to $4.00 RPM, while high-CPM niches like Personal Finance, SaaS, and Tech generate $12.00 to $32.00 RPM after YouTube\u0027s 45% revenue cut."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much does YouTube pay for 100,000 views?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "For 100,000 views, YouTube pays approximately $200 to $2,800. General entertainment channels in Tier 1 countries net $250 to $500, tech channels earn $800 to $1,500, and finance or business software channels earn $1,800 to $2,800+."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much does YouTube pay for 1 million views?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "1 million views generates between $2,000 and $25,000 in AdSense revenue. In general lifestyle and entertainment, 1M views nets $2,500 to $4,500. In high-value educational or software niches, 1M views produces $15,000 to $30,000 in AdSense plus $10,000+ in sponsorships."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What percentage does YouTube take from creators?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "On standard long-form videos, YouTube retains 45% of total gross advertising revenue, paying the creator 55%. On YouTube Shorts, YouTube allocates 45% of the shared Creator Pool revenue to creators and retains 55%."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube \u0026 Creator True Net Income \u0026 Wealth Command Center",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/youtube-tools",
+                      "title":  "YouTube Category Finder \u0026 Tag Extractor Tool (2026)",
+                      "canonical":  "https://twcreatorcalc.xyz/youtube-tools",
+                      "meta":  {
+                                   "description":  "Find any YouTube video\u0027s hidden upload category, extract keywords, audit SEO score (0-100), and download 1080p thumbnails by URL. No API required.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Category Finder \u0026 Tag Extractor Tool (2026)",
+                                   "og:description":  "Find any YouTube video\u0027s hidden upload category, extract keywords, audit SEO score (0-100), and download 1080p thumbnails by URL. No API required.",
+                                   "og:url":  "https://twcreatorcalc.xyz/youtube-tools",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Category Finder \u0026 Tag Extractor Tool (2026)",
+                                   "twitter:description":  "Find any YouTube video\u0027s hidden upload category, extract keywords, audit SEO score (0-100), and download 1080p thumbnails by URL. No API required.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "YouTube Category Finder, Tag Extractor \u0026 Video SEO Score",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "YouTube Deep Video Inspector",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Video Title Will Appear Here",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Detailed Video SEO Audit Breakdown",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Complete YouTube Creator \u0026 SEO Tool Suite",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "YouTube Tag Generator \u0026 Keyword Expander",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Viral YouTube Title Analyzer \u0026 CTR Grader",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "SEO Description \u0026 Timestamps Builder",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Shorts \u0026 Video Hashtag Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Responsive 16:9 Embed Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Feed \u0026 Search Result CTR Previewer",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Your Video Title Goes Here in YouTube Search Results Feed",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YouTube Category RPM Directory \u0026 Monetization Matrix",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions: YouTube Category, Tags \u0026 SEO",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  946,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/youtube-tools#webapp",
+                                                            "name":  "YouTube Category Finder \u0026 Tag Extractor Tool (2026)",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "YouTube Category Finder, Tag Extractor \u0026 Video SEO Score"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/youtube-tools",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Find any YouTube video\u0027s hidden upload category, extract keywords, audit SEO score (0-100), and download 1080p thumbnails by URL. No API required.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/youtube-tools#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How do I find out what category a YouTube video is in?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "YouTube does not display video categories on public watch pages. Enter any video or Shorts URL into TWCreatorCalc to automatically inspect the hidden microformat metadata and reveal the official category name, category ID, and niche RPM."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How do I extract hidden tags from a YouTube video?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Paste any YouTube video link into our inspector. The tool scans the page source code, extracts all keyword tags, and provides 1-click copy formatted for YouTube Studio\u0027s 500-character limit or export as hashtags."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How does YouTube Video SEO scoring work?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Our algorithm calculates an institutional 0-100 score analyzing title length, emotional power words, description keyword density, tag relevance, HD thumbnail resolution (1280x720 min), and category alignment."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How can I download the highest quality YouTube thumbnail?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Paste any YouTube video or Shorts link to instantly access direct download links for 1080p MaxResDefault (1920x1080), HQ (480x360), and WebP formats without watermarks or quality loss."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/youtube-tools#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Category Finder, Tag Extractor \u0026 Video SEO Score",
+                                                                                        "item":  "https://twcreatorcalc.xyz/youtube-tools"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/sponsorship",
+                      "title":  "YouTube Sponsorship Rate Calculator 2026 — Brand Pricing",
+                      "canonical":  "https://twcreatorcalc.xyz/sponsorship",
+                      "meta":  {
+                                   "description":  "Calculate brand deal sponsorship rates for YouTube videos and Shorts. Price 60-second integrations, usage rights, and generate legal creator contracts.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Sponsorship Rate Calculator 2026 — Brand Pricing",
+                                   "og:description":  "Calculate brand deal sponsorship rates for YouTube videos and Shorts. Price 60-second integrations, usage rights, and generate legal creator contracts.",
+                                   "og:url":  "https://twcreatorcalc.xyz/sponsorship",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Sponsorship Rate Calculator 2026 — Brand Pricing",
+                                   "twitter:description":  "Calculate brand deal sponsorship rates for YouTube videos and Shorts. Price 60-second integrations, usage rights, and generate legal creator contracts.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "Sponsorship Pricing, Rights Management \u0026 Legal Shield",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Contract Usage Rights License",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Sponsorship Cold Pitch Email Generator",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "How to Price YouTube Sponsorships \u0026 Brand Deals in 2026",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "2026 YouTube Sponsorship CPM Benchmarks by Niche (Per 1,000 Views)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Deliverable Type Multipliers",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Commercial Usage Rights Surcharges",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About YouTube Sponsorships",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  892,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/sponsorship#webapp",
+                                                            "name":  "YouTube Sponsorship Rate Calculator 2026",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "YouTube Sponsorship Pricing, Rights Management \u0026 Legal Shield"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/sponsorship",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Calculate brand deal sponsorship rates for YouTube videos and Shorts. Price 60-second integrations, usage rights, and generate legal creator contracts.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/sponsorship#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much should a YouTuber charge for a 60-second sponsorship?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Industry benchmark pricing for dedicated 60-second mid-roll integrations ranges from $20 to $45 CPM based on projected average 30-day views. A video averaging 50,000 views charges $1,000 to $2,250 base integration fee plus usage rights multipliers."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How do you calculate usage rights and whitelisting fees?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Standard rates include organic channel posting. For paid advertiser whitelisting (Spark Ads or dark posting), charge a 30% to 50% monthly surcharge on the base fee. For digital paid usage rights beyond 30 days, charge 25% to 50% per 30-day window."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What clauses must every creator brand deal contract include?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Essential contract clauses include strict scope of work, defined round of revisions (maximum 2), 30-day net payment terms with late fees, kill fees (50% post-script / 100% post-production), and indemnity protections."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/sponsorship#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Sponsorship Pricing, Rights Management \u0026 Legal Shield",
+                                                                                        "item":  "https://twcreatorcalc.xyz/sponsorship"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/tax",
+                      "title":  "Creator S-Corp vs LLC Tax Calculator — 15.3% Tax Shield",
+                      "canonical":  "https://twcreatorcalc.xyz/tax",
+                      "meta":  {
+                                   "description":  "Calculate how much you save on YouTuber taxes by electing S-Corp status over an LLC. Compute 15.3% FICA self-employment write-offs and W-2 salaries.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "Creator S-Corp vs LLC Tax Calculator — 15.3% Tax Shield",
+                                   "og:description":  "Calculate how much you save on YouTuber taxes by electing S-Corp status over an LLC. Compute 15.3% FICA self-employment write-offs and W-2 salaries.",
+                                   "og:url":  "https://twcreatorcalc.xyz/tax",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "Creator S-Corp vs LLC Tax Calculator — 15.3% Tax Shield",
+                                   "twitter:description":  "Calculate how much you save on YouTuber taxes by electing S-Corp status over an LLC. Compute 15.3% FICA self-employment write-offs and W-2 salaries.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "S-Corp Tax Optimization, IRS Withholding \u0026 Capital Hub",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Pillar B: Creator Taxes, Capital Lending \u0026 S-Corp Optimizer",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "S-Corp Tax Savings Optimizer",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Working Capital \u0026 Loan Advance",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Legitimate Tax Write-Offs",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Ad-Blocker Reality Loss",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Multi-Channel Empire Scaler",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "IRS Tax Treaty \u0026 W-8BEN Shield",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Pillar C: Community Memberships, 7 Streams Matrix \u0026 FIRE Plan",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Livestream SuperChats \u0026 Channel Memberships Simulator",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "The 7 Streams Fragility Matrix",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "\"Creator FIRE\" $1M Freedom Timeline",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "YouTuber Tax Guide: S-Corp vs LLC \u0026 The 15.3% Self-Employment Tax Shield",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "100% Legitimate Content Creator Tax Deductions \u0026 Write-Offs",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About YouTuber Taxes",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  1022,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/tax#webapp",
+                                                            "name":  "Creator S-Corp vs LLC Tax Calculator",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "Creator S-Corp Tax Optimization \u0026 15.3% Self-Employment Tax Shield"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/tax",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Calculate how much you save on YouTuber taxes by electing S-Corp status over an LLC. Compute 15.3% FICA self-employment write-offs and W-2 salaries.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/tax#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "At what income should a YouTuber form an S-Corporation?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "The standard financial threshold to elect S-Corp tax status is $60,000 to $80,000 in annual net creator profit. Below $60K, additional payroll processing and corporate tax filing costs ($1,200-$2,500/yr) offset tax benefits."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How does an S-Corp save YouTubers money on taxes?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "In a single-member LLC, 100% of creator net profit is hit by the 15.3% FICA self-employment tax. With an S-Corp election, only the W-2 reasonable salary pays FICA, while the remaining distribution flows through completely free of the 15.3% payroll tax."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What business expenses can YouTubers write off?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "YouTubers can write off cameras, lenses, lighting, microphones, editing computers, software subscriptions, contractor fees for editors, home office square footage, internet, and travel directly related to video shoots."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/tax#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "Creator S-Corp Tax Optimization \u0026 15.3% Self-Employment Tax Shield",
+                                                                                        "item":  "https://twcreatorcalc.xyz/tax"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/growth",
+                      "title":  "YouTube Channel Valuation Calculator \u0026 2027 Algorithm",
+                      "canonical":  "https://twcreatorcalc.xyz/growth",
+                      "meta":  {
+                                   "description":  "Calculate your YouTube channel market sale value at 24x to 36x monthly cash flow. Audit eligibility for 8,000 watch hours and Shorts views. Free tool.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "YouTube Channel Valuation Calculator \u0026 2027 Algorithm",
+                                   "og:description":  "Calculate your YouTube channel market sale value at 24x to 36x monthly cash flow. Audit eligibility for 8,000 watch hours and Shorts views. Free tool.",
+                                   "og:url":  "https://twcreatorcalc.xyz/growth",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "YouTube Channel Valuation Calculator \u0026 2027 Algorithm",
+                                   "twitter:description":  "Calculate your YouTube channel market sale value at 24x to 36x monthly cash flow. Audit eligibility for 8,000 watch hours and Shorts views. Free tool.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "Algorithm Velocity, Premium Pools \u0026 Asset Exit Valuation",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Pillar A: YouTube 2027 Algorithm \u0026 Retention Suite",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YPP 2027 Auditor",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Premium Pool Bonus",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Thumbnail CTR Multiplier",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "8+ Min Mid-Roll Booster",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Video Retention (AVD)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Evergreen Catalog Cash Flow",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Pillar D: Growth Multipliers \u0026 Channel Valuation",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Shorts-to-Long Funnel",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "AI Multi-Audio Dubbing",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Multi-Platform Syndication",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Channel Valuation Estimator",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Seasonal CPM Multiplier",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Production Spend \u0026 Break-Even",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "How Much Is a YouTube Channel Worth in 2026? (Exit Valuation Multiple)",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "Frequently Asked Questions About Channel Valuation \u0026 Growth",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  662,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/growth#webapp",
+                                                            "name":  "YouTube Channel Valuation Calculator \u0026 2027 Algorithm",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "YouTube Channel Valuation Multiple \u0026 2027 Algorithm Auditor"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/growth",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Calculate your YouTube channel market sale value at 24x to 36x monthly cash flow. Audit eligibility for 8,000 watch hours and Shorts views. Free tool.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/growth#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much is a YouTube channel worth?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Profitable YouTube channels are valued at 24x to 36x trailing 12-month net monthly cash flow (or 2.0x to 3.0x annual net profit). A channel generating $5,000 net monthly profit typically sells for $120,000 to $180,000 on marketplaces."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What factors increase a YouTube channel valuation multiple?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Valuation multiples increase with diversified revenue streams (affiliate, courses, sponsorships), faceless formats that operate without a single creator, high subscriber retention, and evergreen search-driven video libraries."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What are the 2027 YouTube Partner Program requirements?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Our algorithm auditor models proactive threshold projections up to 8,000 watch hours and 20M Shorts views to help creators build sustainable viewership buffers ahead of platform policy adjustments."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/growth#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Channel Valuation Multiple \u0026 2027 Algorithm Auditor",
+                                                                                        "item":  "https://twcreatorcalc.xyz/growth"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/analytics",
+                      "title":  "Shorts vs Long-Form Revenue Calculator (15x Simulator)",
+                      "canonical":  "https://twcreatorcalc.xyz/analytics",
+                      "meta":  {
+                                   "description":  "Compare YouTube Shorts RPM ($0.04-$0.10) to 8-minute long-form AdSense cash flows. Simulate 12-month multi-scenario creator income and runway forecasts.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "Shorts vs Long-Form Revenue Calculator (15x Simulator)",
+                                   "og:description":  "Compare YouTube Shorts RPM ($0.04-$0.10) to 8-minute long-form AdSense cash flows. Simulate 12-month multi-scenario creator income and runway forecasts.",
+                                   "og:url":  "https://twcreatorcalc.xyz/analytics",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "Shorts vs Long-Form Revenue Calculator (15x Simulator)",
+                                   "twitter:description":  "Compare YouTube Shorts RPM ($0.04-$0.10) to 8-minute long-form AdSense cash flows. Simulate 12-month multi-scenario creator income and runway forecasts.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "Visual Revenue Modeling \u0026 S\u0026P 500 Wealth Forecast",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Visual Intelligence \u0026 Reverse Goal Engines",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Shorts Reality Check: What the exact same views make in Long-Form",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "12-Month Cumulative Cash Flow \u0026 Wealth Accumulation Model",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "YouTube Shorts vs Long-Form Video: Revenue \u0026 RPM Reality Check (2026)",
+                                           "level":  2
+                                       },
+                                       {
+                                           "text":  "How Many Views Do You Need to Earn $1,000, $5,000, or $10,000 a Month?",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  508,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/analytics#webapp",
+                                                            "name":  "Shorts vs Long-Form Revenue Calculator (15x Simulator)",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "YouTube Shorts vs Long-Form Revenue Reality \u0026 Wealth Modeling"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/analytics",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Compare YouTube Shorts RPM ($0.04-$0.10) to 8-minute long-form AdSense cash flows. Simulate 12-month multi-scenario creator income and runway forecasts.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/analytics#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How much does YouTube pay for 1 million Shorts views?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "1 million YouTube Shorts views pays between $40 and $100 ($0.04 to $0.10 RPM) because ad revenue is distributed from a shared Creator Pool based on regional view share."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "Why do long-form videos pay 15x to 30x more than Shorts?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Long-form videos over 8 minutes support multiple mid-roll ad placements where advertisers bid directly on your audience, generating $4.00 to $25.00+ RPM compared to pooled Shorts ads."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What is the optimal content strategy for maximum YouTube income?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Use Shorts as rapid top-of-funnel discovery to gain subscribers, then funnel those viewers into watching 8-15 minute long-form videos with multiple mid-rolls to generate 90%+ of your channel income."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/analytics#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "YouTube Shorts vs Long-Form Revenue Reality \u0026 Wealth Modeling",
+                                                                                        "item":  "https://twcreatorcalc.xyz/analytics"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/academy",
+                      "title":  "Creator Academy — Brand Deal Scripts \u0026 YouTuber Tax Guide",
+                      "canonical":  "https://twcreatorcalc.xyz/academy",
+                      "meta":  {
+                                   "description":  "Word-for-word brand sponsorship negotiation email scripts, anti-scam contract clauses, CPA tax write-off glossaries, and creator terminal user guide.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "Creator Academy — Brand Deal Scripts \u0026 YouTuber Tax Guide",
+                                   "og:description":  "Word-for-word brand sponsorship negotiation email scripts, anti-scam contract clauses, CPA tax write-off glossaries, and creator terminal user guide.",
+                                   "og:url":  "https://twcreatorcalc.xyz/academy",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "Creator Academy — Brand Deal Scripts \u0026 YouTuber Tax Guide",
+                                   "twitter:description":  "Word-for-word brand sponsorship negotiation email scripts, anti-scam contract clauses, CPA tax write-off glossaries, and creator terminal user guide.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "How to Use TWCreatorCalc Like a Financial Pro",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Select Platform, Niche \u0026 Views",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Configure Audience Age \u0026 Tax Status",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Activate Advanced Reality Multipliers",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Price Commercial Licensing Rights",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Generate Contracts, Invoices \u0026 Exit Terms",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Why YouTube Studio \"Estimated Revenue\" is a Vanity Metric",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "The TW Mathematical Sponsorship Rate Formulation",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Paid Whitelisting (+35%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Category Exclusivity (+25%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Perpetual Rights (+50%)",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Brand Scam \u0026 Channel Malware Defense Playbook",
+                                           "level":  4
+                                       },
+                                       {
+                                           "text":  "Q1: How is my True Net Income calculated compared to YouTube Studio?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q2: How do I switch between USD ($) and local currencies like Bangladeshi Taka (BDT ৳) or Euro (EUR €)?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q3: Can I export or print my Media Kit, Invoice, and Contract as a PDF?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q4: What is the Channel Exit Valuation \u0026 M\u0026A Multiple?",
+                                           "level":  5
+                                       },
+                                       {
+                                           "text":  "Q5: How does the S-Corp Tax Shield calculate annual tax savings?",
+                                           "level":  5
+                                       }
+                                   ],
+                      "activeMainWords":  1109,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/academy#webapp",
+                                                            "name":  "Creator Academy",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "Creator Financial Academy, Contract Scripts \u0026 Tax Masterclass"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/academy",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Word-for-word brand sponsorship negotiation email scripts, anti-scam contract clauses, CPA tax write-off glossaries, and creator terminal user guide.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/academy#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "How do you negotiate higher brand sponsorship rates?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Always anchor negotiations by providing 3 tiered packages (e.g. 1 dedicated integration, bundle of 1 integration + 2 Shorts, or full omnichannel rights). Emphasize audience conversion rate and buyer intent over vanity subscriber counts."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What red flags should YouTubers avoid in sponsorship contracts?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Watch out for perpetual copyright transfer, uncapped payment windows (\u003e60 days), undefined revision clauses, strict non-compete clauses covering entire product categories, and personal liability indemnification without insurance."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/academy#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "Creator Financial Academy, Contract Scripts \u0026 Tax Masterclass",
+                                                                                        "item":  "https://twcreatorcalc.xyz/academy"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  },
+                  {
+                      "route":  "/benchmarks",
+                      "title":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory (By Niche)",
+                      "canonical":  "https://twcreatorcalc.xyz/benchmarks",
+                      "meta":  {
+                                   "description":  "Audited 2026 YouTube CPM and RPM benchmarks across 20+ niches (Finance, Tech, Gaming, Lifestyle) and Tier 1 to Tier 3 audience geographic countries.",
+                                   "robots":  "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+                                   "og:type":  "website",
+                                   "og:site_name":  "TWCreatorCalc",
+                                   "og:title":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory (By Niche)",
+                                   "og:description":  "Audited 2026 YouTube CPM and RPM benchmarks across 20+ niches (Finance, Tech, Gaming, Lifestyle) and Tier 1 to Tier 3 audience geographic countries.",
+                                   "og:url":  "https://twcreatorcalc.xyz/benchmarks",
+                                   "og:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "og:image:width":  "1200",
+                                   "og:image:height":  "630",
+                                   "og:image:type":  "image/png",
+                                   "og:image:alt":  "TWCreatorCalc — YouTube Creator Financial Operating System",
+                                   "og:locale":  "en_US",
+                                   "twitter:card":  "summary_large_image",
+                                   "twitter:site":  "@TWCreatorCalc",
+                                   "twitter:creator":  "@TWCreatorCalc",
+                                   "twitter:title":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory (By Niche)",
+                                   "twitter:description":  "Audited 2026 YouTube CPM and RPM benchmarks across 20+ niches (Finance, Tech, Gaming, Lifestyle) and Tier 1 to Tier 3 audience geographic countries.",
+                                   "twitter:image":  "https://twcreatorcalc.xyz/og-image.png",
+                                   "twitter:image:alt":  "TWCreatorCalc — The World\u0027s #1 Creator Financial Operating System"
+                               },
+                      "headings":  [
+                                       {
+                                           "text":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory by Niche \u0026 Country",
+                                           "level":  1
+                                       },
+                                       {
+                                           "text":  "Programmatic SEO Engine (10,000+ Pre-Configured Landing Pages)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Top Google Search Target Keywords (Pre-Calibrated Landing URLs)",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "YouTube Payout Matrix by View Milestone \u0026 Top Niches",
+                                           "level":  3
+                                       },
+                                       {
+                                           "text":  "Creator Financial FAQ \u0026 Revenue Formulas",
+                                           "level":  3
+                                       }
+                                   ],
+                      "activeMainWords":  616,
+                      "internalLinkCount":  13,
+                      "imageCount":  10,
+                      "imagesMissingAlt":  0,
+                      "schema":  [
+                                     {
+                                         "@context":  "https://schema.org",
+                                         "@graph":  [
+                                                        {
+                                                            "@type":  "WebApplication",
+                                                            "@id":  "https://twcreatorcalc.xyz/benchmarks#webapp",
+                                                            "name":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory (By Niche)",
+                                                            "alternateName":  [
+                                                                                  "TWCreatorCalc",
+                                                                                  "Creator Financial Operating System",
+                                                                                  "2026 YouTube CPM \u0026 RPM Benchmarks Directory by Niche \u0026 Country"
+                                                                              ],
+                                                            "url":  "https://twcreatorcalc.xyz/benchmarks",
+                                                            "applicationCategory":  "FinanceApplication",
+                                                            "operatingSystem":  "All",
+                                                            "browserRequirements":  "Requires JavaScript. Requires HTML5.",
+                                                            "description":  "Audited 2026 YouTube CPM and RPM benchmarks across 20+ niches (Finance, Tech, Gaming, Lifestyle) and Tier 1 to Tier 3 audience geographic countries.",
+                                                            "offers":  {
+                                                                           "@type":  "Offer",
+                                                                           "price":  "0",
+                                                                           "priceCurrency":  "USD"
+                                                                       },
+                                                            "aggregateRating":  {
+                                                                                    "@type":  "AggregateRating",
+                                                                                    "ratingValue":  "4.96",
+                                                                                    "bestRating":  "5",
+                                                                                    "worstRating":  "1",
+                                                                                    "ratingCount":  "2940",
+                                                                                    "reviewCount":  "1980"
+                                                                                },
+                                                            "featureList":  [
+                                                                                "Real Net YouTube Take-Home Pay Estimator (Post-45% Cut)",
+                                                                                "S-Corp vs LLC 15.3% Self-Employment Tax Shield Calculator",
+                                                                                "Audited 60-Second Video Integration Sponsorship Rate Card",
+                                                                                "YouTube Video Upload Category Finder \u0026 Tag Extractor",
+                                                                                "Video SEO Health Score Auditor (0-100)",
+                                                                                "1080p MaxRes HD YouTube Thumbnail Downloader",
+                                                                                "Shorts vs Long-Form 15x Revenue Divergence Simulator",
+                                                                                "Live Multi-Currency Conversion (USD, GBP, EUR, BDT, INR, CAD, AUD, AED, SAR, JPY)"
+                                                                            ]
+                                                        },
+                                                        {
+                                                            "@type":  "Organization",
+                                                            "@id":  "https://twcreatorcalc.xyz/#organization",
+                                                            "name":  "TWCreatorCalc",
+                                                            "url":  "https://twcreatorcalc.xyz/",
+                                                            "logo":  "https://twcreatorcalc.xyz/logo.svg",
+                                                            "sameAs":  [
+                                                                           "https://twitter.com/TWCreatorCalc",
+                                                                           "https://github.com/tawhid2005/TWCreatorCalc"
+                                                                       ]
+                                                        },
+                                                        {
+                                                            "@type":  "FAQPage",
+                                                            "@id":  "https://twcreatorcalc.xyz/benchmarks#faq",
+                                                            "mainEntity":  [
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "Which YouTube niches have the highest CPM in 2026?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "The top 3 highest paying niches are B2B Software / SaaS ($28.00-$45.00 CPM), Personal Finance \u0026 Investing ($22.00-$38.00 CPM), and Real Estate / Mortgages ($18.00-$32.00 CPM). Advertisers pay top dollar because buyer lifetime value is thousands of dollars."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "What is the difference between CPM and RPM on YouTube?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "CPM (Cost Per Mille) is the gross amount advertisers pay per 1,000 ad impressions before YouTube takes its 45% cut. RPM (Revenue Per Mille) is the actual net earnings a creator receives per 1,000 total video views."
+                                                                                                      }
+                                                                               },
+                                                                               {
+                                                                                   "@type":  "Question",
+                                                                                   "name":  "Which countries pay the highest YouTube RPM?",
+                                                                                   "acceptedAnswer":  {
+                                                                                                          "@type":  "Answer",
+                                                                                                          "text":  "Tier 1 countries—United States, United Kingdom, Canada, Australia, Switzerland, and Norway—yield the highest RPMs ($6.00 to $25.00+), while international traffic typically averages $0.50 to $2.00 RPM."
+                                                                                                      }
+                                                                               }
+                                                                           ]
+                                                        },
+                                                        {
+                                                            "@type":  "BreadcrumbList",
+                                                            "@id":  "https://twcreatorcalc.xyz/benchmarks#breadcrumbs",
+                                                            "itemListElement":  [
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  1,
+                                                                                        "name":  "TWCreatorCalc",
+                                                                                        "item":  "https://twcreatorcalc.xyz/"
+                                                                                    },
+                                                                                    {
+                                                                                        "@type":  "ListItem",
+                                                                                        "position":  2,
+                                                                                        "name":  "2026 YouTube CPM \u0026 RPM Benchmarks Directory by Niche \u0026 Country",
+                                                                                        "item":  "https://twcreatorcalc.xyz/benchmarks"
+                                                                                    }
+                                                                                ]
+                                                        }
+                                                    ]
+                                     }
+                                 ],
+                      "issues":  [
+
+                                 ]
+                  }
+              ]
+}

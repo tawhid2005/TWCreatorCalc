@@ -1,124 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
-        http://www.google.com/schemas/sitemap-image/1.1
-        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
-
-  <!-- 1. YouTube Creator Tools, Category Finder & Tag Extractor (High Intent Search Hub) -->
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://twcreatorcalc.xyz/youtube-tools</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.00</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>YouTube Category Finder, Tag Extractor &amp; Video SEO Score 2026</image:title>
-      <image:caption>Inspect any YouTube URL: find upload category, extract hidden video tags, calculate video SEO health score (0-100), and download 1080p HD thumbnails.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/logo.png</image:loc>
-      <image:title>TWCreatorCalc YouTube Creator Studio Emblem</image:title>
-      <image:caption>Official tool emblem for YouTube video metadata &amp; SEO inspection.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/academy</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 2. Core YouTube Money Calculator (Institutional Terminal Homepage) -->
   <url>
-    <loc>https://twcreatorcalc.xyz/</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.00</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>YouTube Money Calculator 2026 — Real Net Take-Home Earnings Terminal</image:title>
-      <image:caption>Calculate real take-home creator income after YouTube 45% revenue cut, RPM by niche, and S-Corp tax write-offs.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/logo.png</image:loc>
-      <image:title>TWCreatorCalc Brand Logo &amp; Verified Institutional Seal</image:title>
-      <image:caption>Official verified emblem for TWCreatorCalc Creator Financial Operating System.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/analytics</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 3. YouTube Sponsorship Rate Card & Brand Deal Calculator -->
   <url>
-    <loc>https://twcreatorcalc.xyz/sponsorship</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>YouTube Sponsorship Rate Card Calculator 2026</image:title>
-      <image:caption>Price standard 60-second video integrations, dedicated videos, digital usage rights, and anti-scam legal contracts.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/benchmarks</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 4. Creator S-Corp vs LLC Tax Calculator & Self-Employment Tax Shield -->
   <url>
-    <loc>https://twcreatorcalc.xyz/tax</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>Creator S-Corp vs LLC Tax Savings Calculator 2026</image:title>
-      <image:caption>Calculate 15.3% self-employment FICA tax savings with S-Corp reasonable salary and distributions.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/growth</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 5. YouTube Algorithm 2027 Velocity & Channel Acquisition Valuation -->
   <url>
-    <loc>https://twcreatorcalc.xyz/growth</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>YouTube Channel Valuation &amp; 2027 Algorithm Auditor</image:title>
-      <image:caption>Audit 8,000 watch hours, 20M Shorts requirements, and calculate 24x to 36x M&amp;A channel cash flow multiples.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 6. YouTube Shorts vs Long-Form Revenue Analytics & Wealth Visualizer -->
   <url>
-    <loc>https://twcreatorcalc.xyz/analytics</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>YouTube Shorts vs Long-Form 15x Revenue Simulator</image:title>
-      <image:caption>Visual analytics comparing pooled Shorts RPM to 8-minute mid-roll AdSense cash flow.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/sponsorship</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 7. Creator Monetization Academy, Negotiation Scripts & Tax Guides -->
   <url>
-    <loc>https://twcreatorcalc.xyz/academy</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>Creator Monetization Academy &amp; Negotiation Scripts</image:title>
-      <image:caption>Word-for-word brand negotiation email scripts, anti-scam security checklists, and CPA tax manuals.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/tax</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
-  <!-- 8. Official 2026 YouTube CPM & RPM Benchmarks Directory -->
   <url>
-    <loc>https://twcreatorcalc.xyz/benchmarks</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-    <image:image>
-      <image:loc>https://twcreatorcalc.xyz/og-image.png</image:loc>
-      <image:title>2026 YouTube CPM &amp; RPM Benchmarks Matrix</image:title>
-      <image:caption>Compare advertiser CPM across 12 high-paying niches and global audience geographic tiers.</image:caption>
-    </image:image>
+    <loc>https://www.twcreatorcalc.xyz/youtube-rpm-calculator</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
-
+  <url>
+    <loc>https://www.twcreatorcalc.xyz/youtube-tools</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
 </urlset>
